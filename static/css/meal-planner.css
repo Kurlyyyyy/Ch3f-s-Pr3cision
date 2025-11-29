@@ -1,0 +1,263 @@
+.meal-planner-section {
+    padding: 2rem 0;
+}
+
+.planner-controls {
+    background: rgb(240, 239, 239);
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    margin-bottom: 2rem;
+}
+
+.diet-preferences {
+    margin-bottom: 1.5rem;
+}
+
+.diet-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.diet-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.diet-option:hover {
+    border-color: var(--accent);
+}
+
+.diet-option input:checked + span {
+    color: var(--secondary);
+    font-weight: 500;
+}
+
+.calorie-target {
+    display: flex;
+    align-items: end;
+    gap: 1rem;
+}
+
+.calorie-target .form-group {
+    margin-bottom: 0;
+    flex: 1;
+}
+
+.weekly-planner {
+    background: rgb(243, 243, 243);
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    overflow: hidden;
+}
+
+.week-header {
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.week-navigation {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.week-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.day-column {
+    border-right: 1px solid var(--border);
+    min-height: 400px;
+}
+
+.day-column:last-child {
+    border-right: none;
+}
+
+.day-header {
+    padding: 1rem;
+    background: var(--light);
+    border-bottom: 1px solid var(--border);
+    text-align: center;
+}
+
+.day-name {
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.day-date {
+    font-size: 0.8rem;
+    color: var(--gray);
+}
+
+.day-meals {
+    padding: 1rem;
+}
+
+.meal-slot {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.meal-slot:hover {
+    border-color: var(--accent);
+    background: #eeeeee;
+}
+
+.meal-slot.empty {
+    text-align: center;
+    color: var(--gray);
+    font-style: italic;
+}
+
+.meal-slot h4 {
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+}
+
+.meal-nutrition {
+    font-size: 0.8rem;
+    color: var(--gray);
+}
+
+.meal-options {
+    display: grid;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.meal-option {
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.meal-option:hover {
+    border-color: var(--accent);
+    background: #f8f9fa;
+}
+
+.meal-option h4 {
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+}
+
+.meal-option p {
+    font-size: 0.9rem;
+    color: var(--gray);
+}
+
+@media (max-width: 768px) {
+    .week-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .day-column {
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+    }
+    
+    .calorie-target {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .diet-options {
+        flex-direction: column;
+    }
+}
+
+/* Add these styles to meal-planner.css */
+
+.btn-add-nutrition {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background-color 0.3s;
+}
+
+.btn-add-nutrition:hover {
+    background: #219653;
+}
+
+.meal-slot {
+    position: relative;
+    transition: all 0.3s;
+}
+
+.meal-slot:hover {
+    border-color: #3498db;
+    background: #f8f9fa;
+}
+
+.meal-slot.has-meal {
+    border-left: 4px solid #e74c3c;
+}
+
+.food-entry {
+    position: relative;
+}
+
+.food-entry .meal-planner-badge {
+    background: #e74c3c;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+}
+
+/* Add to meal-planner.css */
+.btn-remove-meal {
+    background: #e74c3c !important;
+    color: rgb(232, 232, 232);
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background-color 0.3s;
+}
+
+.btn-remove-meal:hover {
+    background: #c0392b !important;
+}
+
+.meal-actions {
+    display: none;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.meal-slot.has-meal {
+    border-left: 4px solid #e74c3c;
+    background: #f8f9fa;
+}
+
+.meal-slot.has-meal:hover {
+    background: #e9ecef;
+}

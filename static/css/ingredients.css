@@ -1,0 +1,194 @@
+.ingredients-section {
+    padding: 2rem 0;
+}
+
+.ingredients-form-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    margin-bottom: 2rem;
+}
+
+.quick-add {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+}
+
+.quick-add-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.quick-add-btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border);
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.quick-add-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.ingredients-list {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+}
+
+/* NEW: Search recipes button styles */
+#searchSelectedBtn {
+    display: none;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+#searchSelectedBtn:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+#searchSelectedBtn:active:not(:disabled) {
+    transform: translateY(0);
+}
+
+#searchSelectedBtn:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+#selectAllBtn {
+    display: none;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid var(--border);
+    background: white;
+    color: var(--text);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#selectAllBtn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+/* NEW: Ingredient card with checkbox */
+.ingredient-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+.ingredient-card:hover {
+    border-color: var(--accent);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.ingredient-checkbox {
+    position: relative;
+}
+
+.ingredient-checkbox input[type="checkbox"] {
+    display: none;
+}
+
+.ingredient-checkbox label {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--border);
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.ingredient-checkbox label:hover {
+    border-color: var(--accent);
+}
+
+.ingredient-checkbox input[type="checkbox"]:checked + label {
+    background: var(--accent);
+    border-color: var(--accent);
+}
+
+.ingredient-checkbox input[type="checkbox"]:checked + label::after {
+    content: '✓';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.ingredient-info {
+    flex: 1;
+}
+
+.ingredient-info h4 {
+    margin: 0 0 0.5rem 0;
+    color: var(--text);
+    font-size: 1.1rem;
+}
+
+.ingredient-meta {
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+.ingredient-meta small {
+    color: var(--text-lighter);
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--text-light);
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.delete-btn:hover {
+    background: #fee;
+    color: #e74c3c;
+}
+
+/* Selected state for ingredient cards */
+.ingredient-card.selected {
+    border-color: var(--accent);
+    background: #f8f9ff;
+}

@@ -1,0 +1,106 @@
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/login.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2rem;
+}
+
+.login-header {
+  text-align: center;
+  color: #044436;
+  margin-bottom: 2rem;
+}
+
+.login-header .logo img {
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+.form-tabs {
+  display: flex;
+  background: white;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-bottom: none;
+}
+
+.tab-btn {
+  flex: 1;
+  padding: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.tab-btn.active {
+  background: var(--secondary);
+  color: white;
+}
+
+.form-content {
+  background: rgb(233, 232, 232);
+  padding: 2rem;
+  border-radius: 0 0 8px 8px;
+  border: 1px solid var(--border);
+  width: 100%;
+  max-width: 400px;
+}
+
+.form {
+  display: none;
+}
+
+.form.active {
+  display: block;
+}
+
+.password-toggle {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 70%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--gray);
+  cursor: pointer;
+}
+
+.error-message {
+  color: var(--secondary);
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+  display: none;
+}
+
+.success-message {
+  color: #27ae60;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  text-align: center;
+  display: none;
+}
+
+.form-footer {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--white);
+}
+
+.form-footer a {
+  color: var(--accent);
+  text-decoration: none;
+}

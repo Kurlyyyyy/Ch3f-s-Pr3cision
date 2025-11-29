@@ -1,0 +1,191 @@
+.nutrition-section {
+    padding: 2rem 0;
+}
+
+.nutrition-overview {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.daily-summary, .macronutrient-chart {
+    background: rgb(231, 231, 231);
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+}
+
+.summary-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.summary-card {
+    text-align: center;
+    padding: 1rem;
+}
+
+.progress-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: conic-gradient(var(--secondary) 0% var(--value), #f0f0f0 var(--value) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.progress-circle::before {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+}
+
+.progress-circle .value {
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.progress-circle .label {
+    position: relative;
+    font-size: 0.8rem;
+    color: var(--gray);
+}
+
+.chart-container {
+    height: 200px;
+    margin-top: 1rem;
+}
+
+.nutrition-log {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    margin-bottom: 2rem;
+}
+
+.log-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.food-entries {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.food-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+}
+
+.food-info h4 {
+    margin-bottom: 0.25rem;
+    color: var(--primary);
+}
+
+.meal-time {
+    font-size: 0.8rem;
+    color: var(--gray);
+}
+
+.food-nutrition {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.9rem;
+    color: var(--gray);
+}
+
+.weekly-progress {
+    background: rgb(221, 220, 220);
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+}
+
+.progress-bars {
+    margin-top: 1rem;
+}
+
+.progress-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.progress-item span:first-child {
+    min-width: 80px;
+    font-weight: 500;
+}
+
+.progress-bar {
+    flex: 1;
+    height: 8px;
+    background: #f0f0f0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: var(--secondary);
+    border-radius: 4px;
+    transition: width 0.3s;
+}
+
+.progress-item span:last-child {
+    min-width: 80px;
+    text-align: right;
+    font-size: 0.9rem;
+    color: var(--gray);
+}
+
+.food-form {
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .nutrition-overview {
+        grid-template-columns: 1fr;
+    }
+    
+    .summary-cards {
+        grid-template-columns: 1fr;
+    }
+    
+    .food-entry {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1rem;
+    }
+    
+    .food-nutrition {
+        justify-content: space-between;
+    }
+    
+    .progress-item {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.5rem;
+    }
+}
