@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ch3f's Pr3cision - Transform Your Ingredients Into Perfect Meals</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <img src="{{ url_for('static', filename='assets/loginlogo.png') }}" width="150" height="40">
+                </div>
+                <div class="nav-links">
+                    <a href="{{ url_for('index') }}" class="active">Home</a>
+                    <a href="{{ url_for('ingredients') }}">Ingredients</a>
+                    <a href="{{ url_for('recipes') }}">Recipes</a>
+                    <a href="{{ url_for('meal_planner') }}">Meal Planner</a>
+                    <a href="{{ url_for('nutrition') }}">Nutrition</a>
+                </div>
+                <div class="user-menu">
+                    {% if session.user %}
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <div style="text-align: right;">
+                            <span id="usernameDisplay" style="font-weight: 600;">Welcome, {{ session.user }}!</span>
+                            <div style="font-size: 0.8rem; color: #666;">
+                                <span id="userStats">Loading...</span>
+                            </div>
+                        </div>
+                        <a href="{{ url_for('logout') }}" class="btn btn-secondary">Logout</a>
+                    </div>
+                    <script>
+                        // Load user statistics
+                        document.addEventListener('DOMContentLoaded', function() {
+                            fetch('/api/user/profile')
+                                .then(response => response.json())
+                                .then(data => {
+                                    if (data.statistics) {
+                                        const stats = data.statistics;
+                                        document.getElementById('userStats').textContent = 
+                                            `${stats.ingredient_count} ingredients • ${stats.nutrition_entries} meals`;
+                                    }
+                                })
+                                .catch(error => {
+                                    console.error('Error loading user stats:', error);
+                                });
+                        });
+                    </script>
+                    {% else %}
+                    <div class="auth-buttons">
+                        <a href="{{ url_for('login') }}" class="btn btn-secondary">Sign In</a>
+                        <a href="{{ url_for('login') }}" class="btn btn-primary">Get Started</a>
+                    </div>
+                    {% endif %}
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Transform Your Ingredients Into Perfect Meals</h1>
+            <p>Ch3f's Pr3cision ~ Analyze your pantry and create personalized recipes with precise nutritional tracking. Cook smarter, eat better.</p>
+            <div style="margin-top: 2rem;">
+                <a href="{{ url_for('ingredients') }}" class="btn btn-primary">
+                    <i class="fas fa-plus-circle"></i> Add Ingredients
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section style="padding: 80px 0; background: white;">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <h2>Start Your Cooking Journey</h2>
+                <p style="color: #666; max-width: 600px; margin: 0 auto;">Choose where you'd like to begin. Our platform makes cooking smarter and easier.</p>
+            </div>
+            <div class="recipes-grid">
+                <div class="recipe-card">
+                    <div class="recipe-card-content">
+                        <div style="font-size: 2rem; color: #e74c3c; margin-bottom: 1rem;">
+                            <i class="fas fa-carrot"></i>
+                        </div>
+                        <h3>Add Ingredients</h3>
+                        <p>Build your virtual pantry with the ingredients you have at home.</p>
+                        <a href="{{ url_for('ingredients') }}" class="btn btn-primary">Get Started</a>
+                    </div>
+                </div>
+                <div class="recipe-card">
+                    <div class="recipe-card-content">
+                        <div style="font-size: 2rem; color: #e74c3c; margin-bottom: 1rem;">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h3>Find Recipes</h3>
+                        <p>Get recipe suggestions based on your available ingredients.</p>
+                        <a href="{{ url_for('recipes') }}" class="btn btn-primary">Get Started</a>
+                    </div>
+                </div>
+                <div class="recipe-card">
+                    <div class="recipe-card-content">
+                        <div style="font-size: 2rem; color: #e74c3c; margin-bottom: 1rem;">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3>Meal Planner</h3>
+                        <p>Organize your weekly meals and track your nutrition goals.</p>
+                        <a href="{{ url_for('meal_planner') }}" class="btn btn-primary">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Ch3f's Pr3cision</h3>
+                    <p>Computer-Engineered Intelligent Recipe Recommendation and Meal Planning.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Features</h3>
+                    <ul class="footer-links">
+                        <li><a href="{{ url_for('ingredients') }}">Ingredients</a></li>
+                        <li><a href="{{ url_for('recipes') }}">Recipes</a></li>
+                        <li><a href="{{ url_for('meal_planner') }}">Meal Planner</a></li>
+                        <li><a href="{{ url_for('nutrition') }}">Nutrition</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="{{ url_for('about') }}">About us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="{{ url_for('privacy_policy') }}">Privacy</a></li>
+                        <li><a href="{{ url_for('terms') }}">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ch3f's Pr3cision. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

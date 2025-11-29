@@ -1,0 +1,2036 @@
+[
+  {
+    "id": 1,
+    "picture": "/static/assets/sinangag.jpg",
+    "name": "Sinangag (Filipino Garlic Fried Rice)",
+    "description": "Classic Filipino garlic fried rice made with day-old rice and golden fried garlic",
+    "ingredients": ["3 Tbsp vegetable oil", "12 cloves garlic, minced", "4 c cooked rice, cooled and dry", "¼ tsp salt", "Dash fresh ground pepper", "1 scallion, thinly sliced", "4 eggs (optional)"],
+    "instructions": [
+      "In a large wok or skillet, heat the oil over medium high heat. Reduce the heat to medium and add the minced garlic.",
+      "Stir fry the garlic for 2-3 minutes, until it turns a light golden color.",
+      "Carefully remove the garlic from the pan, leaving the garlic-infused oil behind.",
+      "Add the cooked rice to the garlic oil in the wok, stirring to coat all the grains with oil.",
+      "Spread the rice out in the wok, covering as much surface area of the hot pan as possible.",
+      "Let the rice cook, undisturbed, for 3-5 min. Stir the rice well, then spread it out again and cook for 3-5 min more.",
+      "Return the fried garlic to the pan (saving some for garnish).",
+      "Season the rice with salt and pepper and transfer to a serving dish.",
+      "Garnish with extra fried garlic and sliced scallions.",
+      "If desired, serve the rice topped with fried eggs."
+    ],
+    "time": 15,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "meal_type": "breakfast",
+    "nutrition": {
+      "calories": 380,
+      "protein": 8,
+      "carbs": 48,
+      "fat": 18
+    },
+    "link": "https://example.com/recipes/sinangag"
+  },
+  {
+    "id": 2,
+    "picture": "champorado.jpg",
+    "name": "Champorado (Chocolate Rice Porridge)",
+    "description": "Sweet chocolate rice porridge made with glutinous rice and cocoa powder",
+    "ingredients": ["½ cup cocoa powder", "½ cup sugar", "1 cup glutinous rice", "4 cups water", "Evaporated milk", "Condensed milk", "Additional sugar"],
+    "instructions": [
+      "Boil the water and add the rice. Cook for about 5 minutes, stirring often.",
+      "Add the cocoa powder and lower the heat to medium-low.",
+      "Cook, stirring often, until the mixture starts to thicken and the cocoa powder is fully incorporated.",
+      "Add the sugar and cook for 5-10 minutes, stirring occasionally.",
+      "Turn off the heat once you've achieved your desired doneness and consistency.",
+      "Serve in bowls and let each diner top their champorado as desired with milks and sweeteners."
+    ],
+    "time": 45,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "meal_type": "breakfast",
+    "nutrition": {
+      "calories": 350,
+      "protein": 6,
+      "carbs": 70,
+      "fat": 5
+    },
+    "link": "https://example.com/recipes/champorado"
+  },
+  {
+    "id": 3,
+    "picture": "arroz-caldo.jpg",
+    "name": "Arroz Caldo (Chicken Rice Porridge)",
+    "description": "Hearty chicken and rice porridge with ginger and garlic",
+    "ingredients": ["1.5 pounds bone-in, skin-on chicken", "4 tablespoons fish sauce", "4 tablespoons vegetable oil", "6 cloves garlic, sliced", "1 medium onion, chopped", "2 scallions", "1 inch fresh ginger, peeled and sliced", "1.5 cups jasmine rice", "8-9 cups chicken stock", "Salt to taste", "¼ teaspoon black pepper", "2 hard-boiled eggs", "4 lemon wedges"],
+    "instructions": [
+      "Sauté garlic, onion, and ginger in oil until fragrant.",
+      "Add chicken and season with fish sauce.",
+      "Add glutinous rice and chicken broth.",
+      "Simmer for 30-45 minutes, stirring often until rice is cooked and porridge is thick.",
+      "Serve hot, garnished with fried garlic, chopped scallions, and kalamansi."
+    ],
+    "time": 60,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "breakfast",
+    "nutrition": {
+      "calories": 300,
+      "protein": 20,
+      "carbs": 45,
+      "fat": 5
+    },
+    "link": "https://example.com/recipes/arroz-caldo"
+  },
+  {
+    "id": 4,
+    "picture": "fried-tuyo.png",
+    "name": "Fried Tuyo with Rice (Salted Dried Fish w/ Rice)",
+    "description": "Savory rice mixed with salted dried fish flakes and served with fresh vegetables",
+    "ingredients": ["3 Tablespoons Garlic Tuyo Oil", "2 Tablespoons Tuyo Flakes", "1.5 Cup Day old cold rice", "1 Cucumber Sliced", "1 Mango Diced", "1 Tomato Diced", "1 egg"],
+    "instructions": [
+      "Add the garlic tuyo oil and tuyo flakes to the rice. Mix until combined.",
+      "Place on the stove top and cook on high for 5-7 minutes until fragrant.",
+      "Make a well in the middle of the rice and crack an egg in the middle.",
+      "Mix into the rice for a few seconds until the egg is fully cooked.",
+      "Transfer to a bowl and top with cucumbers, mango and tomato."
+    ],
+    "time": 20,
+    "difficulty": "easy",
+    "diet": "high-protein",
+    "meal_type": "breakfast",
+    "nutrition": {
+      "calories": 380,
+      "protein": 15,
+      "carbs": 45,
+      "fat": 15
+    },
+    "link": "https://example.com/recipes/fried-tuyo"
+  },
+  {
+    "id": 5,
+    "picture": "pinoy-pancakes.jpg",
+    "name": "Pinoy-style Pancakes",
+    "description": "Sweet Filipino-style pancakes with yellow coloring and sugar topping",
+    "ingredients": ["1 cup all-purpose flour", "¼ tsp salt", "1 tsp baking powder", "¼ cup white sugar + ⅛ cup for dusting", "1 cup milk", "1 large egg", "1 tbsp vegetable oil", "¼ tsp yellow food color", "¼ cup butter or margarine"],
+    "instructions": [
+      "Mix flour, baking powder, salt, and sugar in one bowl.",
+      "Mix milk, egg, and vegetable oil in another bowl.",
+      "Add wet ingredients to dry ingredients and mix until well-combined.",
+      "Add the yellow food color and mix into the batter.",
+      "Lightly oil a skillet and adjust heat to medium low.",
+      "Scoop ¼ cup of batter and drop onto skillet. Cook for about 30 seconds per side.",
+      "Remove hotcake from skillet. Spread butter and sprinkle with sugar.",
+      "Repeat until batter is used up. Serve warm."
+    ],
+    "time": 25,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "meal_type": "breakfast",
+    "nutrition": {
+      "calories": 300,
+      "protein": 6,
+      "carbs": 50,
+      "fat": 10
+    },
+    "link": "https://example.com/recipes/pinoy-pancakes"
+  },
+  {
+    "id": 6,
+    "picture": "tinapa-rice.jpg",
+    "name": "Tinapa with Rice (Smoked Fish w/ Rice)",
+    "description": "Fried rice with flaked smoked fish and scrambled eggs",
+    "ingredients": ["3 eggs beaten and seasoned with salt", "1 cup flaked smoked fish (tinapa)", "3 garlic cloves minced", "3 cups cooked white rice, cold", "2 scallions thinly sliced", "Cilantro stems and leaves chopped", "Salt and pepper to taste", "Soy sauce or fish sauce to taste", "Neutral-flavored oil"],
+    "instructions": [
+      "Toast tinapa flakes in oil until slightly crispy.",
+      "Sauté garlic and white parts of scallions until fragrant.",
+      "Pour scramble eggs into center of pan, stir until just set.",
+      "Add day-old rice, spreading it out to break apart clumps.",
+      "Stir-fry with other ingredients until heated through.",
+      "Season with salt, pepper, and soy sauce or fish sauce.",
+      "Add green parts of scallions and cilantro stems.",
+      "Garnish with more scallions, cilantro leaves, and fried shallots."
+    ],
+    "time": 15,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "breakfast",
+    "nutrition": {
+      "calories": 378,
+      "protein": 20,
+      "carbs": 35,
+      "fat": 5
+    },
+    "link": "https://example.com/recipes/tinapa-rice"
+  },
+  {
+    "id": 7,
+    "picture": "embutido.jpg",
+    "name": "Embutido (Steamed Meatloaf)",
+    "description": "Filipino-style steamed meatloaf with hard-boiled eggs and Chinese sausage",
+    "ingredients": ["1 lb ground pork", "6 oz shredded cheddar cheese", "3 oz panko breadcrumbs", "2 large eggs, beaten", "2 tbsp oyster sauce", "1 tbsp fish sauce", "1 tsp black pepper", "1 tsp soy sauce", "½ tsp salt", "½ tsp cayenne pepper", "5 large hard-boiled eggs", "2 links Chinese sausage", "13 garlic cloves, minced", "1 medium red onion, chopped", "1 yellow bell pepper, chopped", "2 medium carrots, grated"],
+    "instructions": [
+      "Sauté garlic, onion, bell pepper, and carrots until softened and golden brown.",
+      "In a large bowl, combine pork, cheese, breadcrumbs, eggs, sauces, and cooled vegetable mixture.",
+      "Mix until thoroughly combined.",
+      "Shape meat mixture into an 8x15-inch rectangle on aluminum foil.",
+      "Place eggs and sausage in the center of the rectangle.",
+      "Roll the meat to enclose the eggs and sausage, forming a tight log.",
+      "Wrap tightly in aluminum foil and bake at 375°F for 1.5 hours.",
+      "Let cool, then slice and serve with white rice and sweet and sour sauce."
+    ],
+    "time": 170,
+    "difficulty": "hard",
+    "diet": "high-protein",
+    "meal_type": "breakfast",
+    "nutrition": {
+      "calories": 461,
+      "protein": 25,
+      "carbs": 30,
+      "fat": 26
+    },
+    "link": "https://example.com/recipes/embutido"
+  },
+  {
+    "id": 8,
+    "picture": "fried-egg.jpg",
+    "name": "Fried Egg",
+    "description": "Simple sunny-side up fried egg",
+    "ingredients": ["1 large egg", "1 tablespoon oil or butter", "Salt to taste", "Pepper to taste"],
+    "instructions": [
+      "Crack an egg into a small bowl.",
+      "Heat a non-stick skillet over medium-low heat.",
+      "Add butter to the hot pan.",
+      "Gently place the egg in the skillet.",
+      "Cover the pan and cook until the egg white is solid.",
+      "Remove from pan and season with salt and pepper."
+    ],
+    "time": 5,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "meal_type": "breakfast",
+    "nutrition": {
+      "calories": 173,
+      "protein": 6,
+      "carbs": 0,
+      "fat": 16
+    },
+    "link": "https://example.com/recipes/fried-egg"
+  },
+  {
+    "id": 9,
+    "picture": "sotanghon.jpg",
+    "name": "Sotanghon (Glass Noodle Soup)",
+    "description": "Chicken and glass noodle soup with shiitake mushrooms",
+    "ingredients": ["2 cups water", "1 teaspoon salt", "1 pound chicken legs", "1 ounce dried shiitake mushrooms", "8 ounces bean thread noodles", "3 tablespoons olive oil", "1 onion, chopped", "2 cloves garlic, minced", "1.5 teaspoons achiote powder", "1 tablespoon fish sauce", "Salt and pepper to taste", "2 cans chicken broth", "2 green onions, chopped"],
+    "instructions": [
+      "Boil water with salt and cook chicken legs until done. Shred chicken.",
+      "Soak shiitake mushrooms in warm water until pliable, then slice.",
+      "Soak noodles in reserved mushroom water until soft.",
+      "Heat olive oil and sauté onion and garlic until softened.",
+      "Add achiote powder and cook until well coated.",
+      "Stir in shredded chicken, mushrooms, and fish sauce.",
+      "Add chicken broth and reserved cooking liquid.",
+      "Bring to boil, add noodles and cook 5 minutes more.",
+      "Garnish with green onions."
+    ],
+    "time": 85,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "breakfast",
+    "nutrition": {
+      "calories": 210,
+      "protein": 15,
+      "carbs": 24,
+      "fat": 8
+    },
+    "link": "https://example.com/recipes/sotanghon"
+  },
+  {
+    "id": 10,
+    "picture": "sopas.png",
+    "name": "Sopas (Macaroni Soup)",
+    "description": "Creamy chicken and macaroni soup with vegetables",
+    "ingredients": ["2 boneless skinless chicken breasts", "1.5-2 cups uncooked macaroni", "3 tbsp olive oil", "1 medium yellow onion, diced", "4 garlic cloves, chopped", "2 medium carrots, sliced", "2 celery stalks, sliced", "8-10 cups chicken broth", "Salt and pepper to taste", "2-3 tablespoons fish sauce", "12 oz can evaporated milk", "½ head cabbage, chopped", "Green onions for garnish"],
+    "instructions": [
+      "Boil chicken breasts until tender, then shred. Reserve liquid.",
+      "Cook macaroni al dente in separate pot.",
+      "Sauté onions, garlic, celery, and carrots until tender.",
+      "Stir in shredded chicken. Add broth and bring to boil.",
+      "Pour in evaporated milk, add chopped cabbage.",
+      "Season with fish sauce and adjust seasoning.",
+      "Place cooked macaroni in bowls and ladle hot soup over.",
+      "Garnish with sliced green onions."
+    ],
+    "time": 50,
+    "difficulty": "medium",
+    "diet": "balanced",
+    "meal_type": "breakfast",
+    "nutrition": {
+      "calories": 309,
+      "protein": 18,
+      "carbs": 29,
+      "fat": 15
+    },
+    "link": "https://example.com/recipes/sopas"
+  },
+  {
+    "id": 11,
+    "picture": "pancit-guisado.jpg",
+    "name": "Pancit Guisado (Stir-fried Noodles)",
+    "description": "Classic Filipino stir-fried rice noodles with vegetables and protein",
+    "ingredients": ["2 cloves garlic, chopped", "½ onion, diced", "3-4 ribs celery, sliced", "2-3 carrots, sliced", "¼-⅓ wedge cabbage, sliced", "2-3 cups chicken stock", "1 tablespoon fish sauce", "2-3 tablespoons soy sauce", "8 ounces rice noodles", "Protein of choice (chicken, pork, shrimp)", "2-5 tablespoons olive oil", "Lemon or lime wedges for garnish"],
+    "instructions": [
+      "Prepare protein if using raw meat: cook and set aside.",
+      "Sauté onion, celery and carrots in oil for 3-5 minutes.",
+      "Add garlic and cook for 2 more minutes.",
+      "Add fish sauce and soy sauce while sautéing vegetables.",
+      "Transfer vegetables to same bowl as protein.",
+      "Pour chicken stock in skillet and bring to boil.",
+      "Add dried rice noodles and simmer for 6-8 minutes until liquid is absorbed.",
+      "Add back vegetables and protein, toss to combine.",
+      "Cook for few minutes until steamy and well-incorporated.",
+      "Plate and garnish with lemon or lime wedges and ground pepper."
+    ],
+    "time": 45,
+    "difficulty": "medium",
+    "diet": "balanced",
+    "meal_type": "breakfast",
+    "nutrition": {
+      "calories": 480,
+      "protein": 20,
+      "carbs": 60,
+      "fat": 18
+    },
+    "link": "https://example.com/recipes/pancit-guisado"
+  },
+  {
+    "id": 12,
+    "picture": "pandesal.jpg",
+    "name": "Pandesal with Palaman (Fillings)",
+    "description": "Filipino salt bread rolls with various fillings",
+    "ingredients": ["2 pieces Pandesal", "Filling (cheese, peanut butter, corned beef, coconut jam)", "Coffee or Hot Chocolate"],
+    "instructions": [
+      "Lightly toast the pandesal.",
+      "Slice the pandesal open and fill with preferred palaman.",
+      "Serve immediately while warm, typically paired with a hot drink."
+    ],
+    "time": 5,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "meal_type": "breakfast",
+    "nutrition": {
+      "calories": 250,
+      "protein": 8,
+      "carbs": 35,
+      "fat": 8
+    },
+    "link": "https://example.com/recipes/pandesal"
+  },
+  {
+    "id": 13,
+    "picture": "longsilog.jpg",
+    "name": "Longsilog (Filipino Sausage, Garlic Rice, Egg)",
+    "description": "Classic Filipino breakfast trio of sausage, garlic rice, and egg",
+    "ingredients": ["2 tablespoons cooking oil", "2 cups cooked rice", "1 pack garlic seasoning mix", "1 cup water", "6 pieces longganisa", "4 eggs", "2 tablespoons cooking oil for eggs"],
+    "instructions": [
+      "Heat pan, add oil, rice and garlic seasoning. Mix well until cooked then set aside.",
+      "Boil longganisa and wait until water dries up, then cook in its own fat.",
+      "Fry eggs over high heat for 4-5 minutes until whites are set.",
+      "Transfer garlic fried rice to plate alongside longganisa and sunny side up eggs.",
+      "Serve and enjoy!"
+    ],
+    "time": 25,
+    "difficulty": "easy",
+    "diet": "high-protein",
+    "meal_type": "breakfast",
+    "nutrition": {
+      "calories": 909,
+      "protein": 30,
+      "carbs": 69,
+      "fat": 56
+    },
+    "link": "https://example.com/recipes/longsilog"
+  },
+  {
+    "id": 14,
+    "picture": "tocino.jpg",
+    "name": "Tosilog (Cured Sweet Pork Belly, Garlic Rice, Egg)",
+    "description": "Sweet cured pork with garlic rice and fried egg",
+    "ingredients": ["2 pounds pork butt or belly", "⅓ cup brown sugar", "1.5 tablespoons salt", "3 cloves garlic, minced", "1 tablespoon soy sauce", "2 tablespoons vinegar", "½ cup fruit juice (optional)", "1.5 tablespoons black pepper", "Red food color or banana ketchup (optional)"],
+    "instructions": [
+      "Combine all marinade ingredients except pork in bowl.",
+      "Add pork slices and mix thoroughly.",
+      "Transfer to container and let sit overnight on counter.",
+      "Mix again before refrigerating. Cure for 24 hours or up to 3 days.",
+      "For serving: boil tocino with water and oil until water evaporates.",
+      "Fry tocino in remaining oil until cooked through.",
+      "Serve with garlic rice and sunny side up eggs."
+    ],
+    "time": 1440,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "breakfast",
+    "nutrition": {
+      "calories": 750,
+      "protein": 35,
+      "carbs": 65,
+      "fat": 40
+    },
+    "link": "https://example.com/recipes/tosilog"
+  },
+  {
+    "id": 15,
+    "picture": "bangsilog.jpg",
+    "name": "Bangsilog (Fried Bangus, Garlic Rice, Egg)",
+    "description": "Crispy fried milkfish with garlic rice and egg",
+    "ingredients": ["1 piece baby boneless bangus", "2 cups chilled white rice", "3 tablespoons minced garlic", "½ teaspoon salt", "1 egg", "Cooking oil", "Marinade: 3 cloves garlic, 4 tbsp lemon juice, ¼ cup soy sauce, ¼ tsp pepper"],
+    "instructions": [
+      "Marinate milkfish in garlic, lemon juice, soy sauce and pepper.",
+      "Heat oil in non-stick pan over high heat.",
+      "Fry milkfish meat side down until crispy and golden brown.",
+      "For garlic rice: cook minced garlic in oil until golden.",
+      "Add rice and press into oil and garlic.",
+      "Stir continuously for 5-7 minutes until hot.",
+      "Season with salt and cook additional 5 minutes.",
+      "Serve with fried fish and sunny side up egg."
+    ],
+    "time": 30,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "breakfast",
+    "nutrition": {
+      "calories": 650,
+      "protein": 30,
+      "carbs": 45,
+      "fat": 40
+    },
+    "link": "https://example.com/recipes/bangsilog"
+  },
+  {
+    "id": 16,
+    "picture": "hotsilog.jpg",
+    "name": "Hotsilog (Hotdog, Garlic Rice, Egg)",
+    "description": "Fried hotdogs with garlic rice and egg",
+    "ingredients": ["2 cups rice", "3 cloves minced garlic", "1 tsp liquid seasoning", "Salt and pepper to taste", "2 pieces hotdog", "1 tomato", "1 sunny side up egg"],
+    "instructions": [
+      "Slice and fry hotdogs until slightly caramelized.",
+      "Prepare garlic rice by sautéing garlic and mixing with rice.",
+      "Fry egg sunny side up.",
+      "Arrange fried hotdogs, garlic rice, and fried egg on plate.",
+      "Serve hot with banana ketchup."
+    ],
+    "time": 15,
+    "difficulty": "easy",
+    "diet": "balanced",
+    "meal_type": "breakfast",
+    "nutrition": {
+      "calories": 550,
+      "protein": 15,
+      "carbs": 50,
+      "fat": 30
+    },
+    "link": "https://example.com/recipes/hotsilog"
+  },
+  {
+    "id": 17,
+    "picture": "cornsilog.jpg",
+    "name": "Cornsilog (Corned Beef, Garlic Rice, Egg)",
+    "description": "Savory corned beef with garlic rice and egg",
+    "ingredients": ["200g canned corned beef", "4 cups cooked white rice", "6 cloves garlic", "1 small onion", "4 eggs", "Fried fish danggit (optional)", "2 tablespoons vegetable oil", "Salt and black pepper to taste"],
+    "instructions": [
+      "Cook corned beef: sauté onion in oil until translucent.",
+      "Add corned beef and mix. Season with salt and pepper.",
+      "For garlic rice: cook garlic in oil until brown.",
+      "Add rice and mix gently. Season with salt and pepper.",
+      "Fry eggs to preference.",
+      "Optional: fry danggit until crispy.",
+      "Serve all components together."
+    ],
+    "time": 15,
+    "difficulty": "easy",
+    "diet": "high-protein",
+    "meal_type": "breakfast",
+    "nutrition": {
+      "calories": 501,
+      "protein": 25,
+      "carbs": 49,
+      "fat": 20
+    },
+    "link": "https://example.com/recipes/cornsilog"
+  },
+  {
+    "id": 18,
+    "picture": "spamsilog.jpg",
+    "name": "Spamsilog (Spam, Garlic Rice, Egg)",
+    "description": "Pan-fried Spam with garlic rice and egg",
+    "ingredients": ["1 cup uncooked rice", "1.5 cups water", "Salt and pepper", "Minced garlic", "1 Tbsp cooking oil", "3-4 slices Spam", "2 Eggs"],
+    "instructions": [
+      "Cook rice in rice cooker with salted water.",
+      "Heat pan with oil, cook garlic until golden.",
+      "Add cooked rice, mix with garlic and oil for 3-4 minutes.",
+      "Fry Spam slices until edges crisp and brown, 3-4 minutes per side.",
+      "Fry eggs to preference, seasoning with salt and pepper.",
+      "Plate all components together."
+    ],
+    "time": 15,
+    "difficulty": "easy",
+    "diet": "high-protein",
+    "meal_type": "breakfast",
+    "nutrition": {
+      "calories": 650,
+      "protein": 25,
+      "carbs": 45,
+      "fat": 40
+    },
+    "link": "https://example.com/recipes/spamsilog"
+  },
+  {
+    "id": 19,
+    "picture": "tapsilog.jpg",
+    "name": "Tapsilog (Beef Tapa, Garlic Rice, Egg)",
+    "description": "Marinated beef strips with garlic rice and egg",
+    "ingredients": ["1kg beef", "½ cup + 2 tbsp soy sauce", "½ tsp salt", "1 tsp black pepper", "½-1 tbsp sugar", "2 heads garlic", "1 tbsp calamansi juice", "½ tsp baking soda", "½ cup cola or apple juice"],
+    "instructions": [
+      "Combine all marinade ingredients and mix with beef.",
+      "Marinate for several hours or overnight.",
+      "Fry marinated beef tapa until cooked through and slightly crispy.",
+      "Sauté minced garlic until golden, add rice and mix well.",
+      "Fry eggs sunny-side up.",
+      "Arrange tapa, garlic rice, and fried egg on plate.",
+      "Serve hot with vinegar and chili."
+    ],
+    "time": 20,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "breakfast",
+    "nutrition": {
+      "calories": 600,
+      "protein": 35,
+      "carbs": 45,
+      "fat": 35
+    },
+    "link": "https://example.com/recipes/tapsilog"
+  },
+  {
+    "id": 20,
+    "picture": "chicken-adobo.jpg",
+    "name": "Chicken Adobo (Chicken Stewed in Soy Sauce, Vinegar, and Garlic)",
+    "description": "Classic Filipino chicken stewed in soy sauce, vinegar, and garlic",
+    "ingredients": ["1.5 lbs chicken pieces (thighs/drumsticks)", "½ cup soy sauce", "⅓ cup cane vinegar", "1 head garlic (crushed)", "1 tsp whole peppercorns", "2 bay leaves", "½ cup water", "1 Tbsp cooking oil"],
+    "instructions": [
+      "Combine chicken, soy sauce, vinegar, crushed garlic, peppercorns, and bay leaves. Marinate for 30 minutes.",
+      "Place the chicken and marinade in a pot with water. Bring to a rapid boil for 5 minutes (do not stir).",
+      "Reduce heat, cover, and simmer for 45 minutes to 1 hour until the chicken is tender.",
+      "Remove the lid and let the sauce reduce and thicken into a glossy gravy.",
+      "Serve hot with steamed rice."
+    ],
+    "time": 75,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "lunch",
+    "nutrition": {
+      "calories": 420,
+      "protein": 35,
+      "carbs": 8,
+      "fat": 25
+    },
+    "link": "https://example.com/recipes/chicken-adobo"
+  },
+  {
+    "id": 21,
+    "picture": "pork-adobo.jpg",
+    "name": "Pork Adobo (Pork Stewed in Soy Sauce, Vinegar, and Garlic)",
+    "description": "Savory pork stewed in soy sauce, vinegar, and garlic",
+    "ingredients": ["1.5 lbs pork shoulder or belly (cubed)", "½ cup soy sauce", "⅓ cup cane vinegar", "1 head garlic (crushed)", "1 tsp whole peppercorns", "2 bay leaves", "1 cup water", "1 Tbsp cooking oil"],
+    "instructions": [
+      "Combine pork, soy sauce, vinegar, crushed garlic, peppercorns, and bay leaves. Marinate for 30 minutes.",
+      "Place the pork and marinade in a pot with water. Bring to a boil (do not stir), then reduce heat and simmer, covered, for 1 to 1.5 hours until tender.",
+      "Remove the tender pork pieces and fry them briefly in a separate pan until edges are crispy.",
+      "Pour the remaining sauce back into the pot and reduce until thick. Return pork to sauce.",
+      "Serve the savory, tangy pork adobo hot with rice."
+    ],
+    "time": 90,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "lunch",
+    "nutrition": {
+      "calories": 500,
+      "protein": 40,
+      "carbs": 8,
+      "fat": 35
+    },
+    "link": "https://example.com/recipes/pork-adobo"
+  },
+  {
+    "id": 22,
+    "picture": "sinigang-baboy.jpg",
+    "name": "Sinigang na Baboy (Pork in Sour Tamarind Broth)",
+    "description": "Sour pork soup with vegetables in tamarind broth",
+    "ingredients": ["1.5 lbs pork belly or shoulder (cubed)", "8 cups water", "1 pack Sinigang sa Sampaloc mix", "1 large onion (quartered)", "2 gabi (taro, cubed)", "labanos (radish)", "sitaw (string beans)", "kangkong (water spinach)", "1 Tbsp patis (fish sauce)"],
+    "instructions": [
+      "Boil the pork with water and onion, skimming off impurities, for 1 to 1.5 hours until tender.",
+      "Add the gabi (taro) and labanos (radish). Simmer for 15 minutes.",
+      "Stir in the Sinigang mix (tamarind base) and season with patis.",
+      "Add the sitaw (string beans) and finally the kangkong (water spinach).",
+      "Cook for 3-5 minutes until greens are just wilted.",
+      "Serve the hot, tart soup with rice."
+    ],
+    "time": 105,
+    "difficulty": "medium",
+    "diet": "balanced",
+    "meal_type": "lunch",
+    "nutrition": {
+      "calories": 480,
+      "protein": 30,
+      "carbs": 35,
+      "fat": 30
+    },
+    "link": "https://example.com/recipes/sinigang-baboy"
+  },
+  {
+    "id": 23,
+    "picture": "sinigang-hipon.jpg",
+    "name": "Sinigang na Hipon (Shrimp in Tamarind Broth)",
+    "description": "Light and tangy shrimp soup in tamarind broth",
+    "ingredients": ["1 lb large shrimp (with heads/shells)", "6 cups water", "1 pack Sinigang sa Sampaloc mix", "2 tomatoes (quartered)", "1 onion (quartered)", "1 labanos (radish, sliced)", "kangkong", "1 siling haba (long green chili)"],
+    "instructions": [
+      "Bring water, tomatoes, and onion to a boil. Simmer for 15 minutes.",
+      "Stir in the Sinigang mix and add sliced radish. Simmer for 5 minutes.",
+      "Add cleaned shrimp. Cook for only 3-5 minutes until shrimp turn pink.",
+      "Add kangkong and siling haba. Cook for 1-2 minutes.",
+      "Serve the light, tangy soup immediately."
+    ],
+    "time": 45,
+    "difficulty": "easy",
+    "diet": "high-protein",
+    "meal_type": "lunch",
+    "nutrition": {
+      "calories": 250,
+      "protein": 25,
+      "carbs": 25,
+      "fat": 5
+    },
+    "link": "https://example.com/recipes/sinigang-hipon"
+  },
+  {
+    "id": 24,
+    "picture": "sinigang-isda.jpg",
+    "name": "Sinigang na Isda (Fish in Sour Broth)",
+    "description": "Tangy fish soup with vegetables in sour broth",
+    "ingredients": ["1.5 lbs fish (maya-maya or salmon head)", "6 cups water", "1 pack Sinigang sa Sampaloc mix", "2 tomatoes", "1 onion", "sitaw", "okra", "talong (eggplant)", "kalamansi"],
+    "instructions": [
+      "Bring water, tomatoes, and onion to a boil. Simmer for 15 minutes.",
+      "Add sitaw, okra, and talong (eggplant). Simmer for 10 minutes.",
+      "Stir in Sinigang mix and season with patis.",
+      "Gently place fish slices in simmering broth. Cook for 8-10 minutes until flaky.",
+      "Serve the tangy fish soup hot."
+    ],
+    "time": 45,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "lunch",
+    "nutrition": {
+      "calories": 300,
+      "protein": 30,
+      "carbs": 20,
+      "fat": 10
+    },
+    "link": "https://example.com/recipes/sinigang-isda"
+  },
+  {
+    "id": 25,
+    "picture": "kare-kare.jpg",
+    "name": "Kare-Kare (Oxtail and Tripe Stew in Peanut Sauce)",
+    "description": "Rich oxtail and tripe stew in thick peanut sauce",
+    "ingredients": ["1.5 lbs oxtail and tripe", "1 cup peanut butter", "¼ cup toasted ground rice", "1 bundle sitaw (string beans)", "1 bundle pechay (Napa cabbage)", "talong (eggplant)", "atsuete oil for color", "1 cup beef broth", "Bagoong Alamang (side)"],
+    "instructions": [
+      "Boil oxtail and tripe until extremely tender (2-3 hours). Reserve broth.",
+      "Melt atsuete seeds in oil to extract color. Sauté garlic and onion.",
+      "Add meat and some broth.",
+      "Stir in peanut butter and toasted ground rice until sauce is thick and smooth.",
+      "Blanch vegetables separately.",
+      "Arrange meat and vegetables, cover with peanut sauce.",
+      "Serve with steamed rice and bagoong alamang."
+    ],
+    "time": 180,
+    "difficulty": "hard",
+    "diet": "high-protein",
+    "meal_type": "lunch",
+    "nutrition": {
+      "calories": 650,
+      "protein": 45,
+      "carbs": 35,
+      "fat": 45
+    },
+    "link": "https://example.com/recipes/kare-kare"
+  },
+  {
+    "id": 26,
+    "picture": "bicol-express.jpg",
+    "name": "Bicol Express (Pork and Chili Stew in Coconut Milk)",
+    "description": "Spicy pork stew in coconut milk with chilies",
+    "ingredients": ["1 lb pork belly (cubed)", "2 cups thick coconut milk", "¼ cup bagoong alamang (shrimp paste)", "1 piece ginger (julienned)", "1 onion", "5-8 siling labuyo (bird's eye chili)", "½ cup long green chili (sliced)"],
+    "instructions": [
+      "Sauté garlic, onion, and ginger.",
+      "Add pork belly and cook until lightly browned.",
+      "Stir in bagoong alamang and cook for 3-5 minutes.",
+      "Pour in coconut milk. Bring to gentle simmer.",
+      "Add long green chilies and siling labuyo.",
+      "Simmer uncovered until sauce reduces to thick, creamy consistency.",
+      "Serve the rich, spicy stew hot with steamed rice."
+    ],
+    "time": 60,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "lunch",
+    "nutrition": {
+      "calories": 520,
+      "protein": 30,
+      "carbs": 10,
+      "fat": 45
+    },
+    "link": "https://example.com/recipes/bicol-express"
+  },
+  {
+    "id": 27,
+    "picture": "laing.jpg",
+    "name": "Laing (Taro Leaves and Pork in Coconut Milk)",
+    "description": "Creamy taro leaves cooked in coconut milk with pork",
+    "ingredients": ["1 bag dried taro leaves", "2 cups thick coconut milk", "½ lb pork belly (cubed)", "¼ cup bagoong alamang", "1 piece ginger (julienned)", "5-8 siling labuyo", "1 onion"],
+    "instructions": [
+      "Sauté garlic, onion, and ginger.",
+      "Add cubed pork belly and cook until lightly browned.",
+      "Pour in coconut milk. Add bagoong and chilies. Bring to simmer.",
+      "Gently add dried taro leaves without stirring.",
+      "Simmer, covered, for 45 minutes to 1 hour until leaves are tender.",
+      "Stir carefully only when leaves are fully tender.",
+      "Serve the creamy, savory dish hot with rice."
+    ],
+    "time": 75,
+    "difficulty": "medium",
+    "diet": "balanced",
+    "meal_type": "lunch",
+    "nutrition": {
+      "calories": 450,
+      "protein": 20,
+      "carbs": 20,
+      "fat": 35
+    },
+    "link": "https://example.com/recipes/laing"
+  },
+  {
+    "id": 28,
+    "picture": "menudo.jpg",
+    "name": "Menudo (Pork and Liver Stew in Tomato Sauce)",
+    "description": "Hearty pork and liver stew with vegetables in tomato sauce",
+    "ingredients": ["1.5 lbs pork shoulder (cubed)", "½ lb pork liver (cubed)", "1 cup tomato sauce", "½ cup water", "1 potato (diced)", "1 carrot (diced)", "¼ cup raisins", "¼ cup chickpeas", "¼ cup soy sauce", "1 Tbsp sugar"],
+    "instructions": [
+      "Marinate pork and liver in soy sauce for 15 minutes.",
+      "Sauté garlic and onion. Add marinated meat and cook until browned.",
+      "Pour in tomato sauce and water. Add bay leaf, potatoes, and carrots.",
+      "Bring to boil, then reduce heat and simmer for 45 minutes.",
+      "Stir in chickpeas, raisins, and sugar. Cook for 5 minutes.",
+      "Serve the hearty stew hot with rice."
+    ],
+    "time": 75,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "lunch",
+    "nutrition": {
+      "calories": 500,
+      "protein": 35,
+      "carbs": 40,
+      "fat": 25
+    },
+    "link": "https://example.com/recipes/menudo"
+  },
+  {
+    "id": 29,
+    "picture": "afritada.jpg",
+    "name": "Afritada (Chicken or Pork in Tomato Sauce)",
+    "description": "Tomato-based stew with chicken or pork and vegetables",
+    "ingredients": ["1.5 lbs chicken or pork pieces", "1 cup tomato sauce", "½ cup water", "1 potato (cubed)", "1 carrot (cubed)", "1 green bell pepper (sliced)", "1 onion", "3 cloves garlic", "1 Tbsp cooking oil"],
+    "instructions": [
+      "Sauté garlic and onion. Add meat and cook until browned.",
+      "Pour in tomato sauce and water. Add potatoes and carrots.",
+      "Season with salt and pepper. Bring to boil, then simmer for 30-40 minutes.",
+      "Add sliced green bell pepper. Cook for 5 minutes.",
+      "Serve the tomato-based stew hot with rice."
+    ],
+    "time": 60,
+    "difficulty": "medium",
+    "diet": "balanced",
+    "meal_type": "lunch",
+    "nutrition": {
+      "calories": 420,
+      "protein": 30,
+      "carbs": 30,
+      "fat": 20
+    },
+    "link": "https://example.com/recipes/afritada"
+  },
+  {
+    "id": 30,
+    "picture": "mechado.jpg",
+    "name": "Mechado (Beef Stew with Lard, Tomato and Soy Sauce)",
+    "description": "Rich beef stew with tomato and soy sauce",
+    "ingredients": ["1.5 lbs beef chunks", "1 cup tomato sauce", "¼ cup soy sauce", "1 cup beef broth", "1 potato (cubed)", "1 carrot (cubed)", "1 onion", "3 cloves garlic", "1 Tbsp cooking oil"],
+    "instructions": [
+      "Sear beef chunks until browned on all sides. Remove and set aside.",
+      "Sauté garlic and onion. Return beef to pot.",
+      "Add tomato sauce, soy sauce, and beef broth. Add bay leaf.",
+      "Bring to boil, then simmer for 1.5 to 2 hours until beef is tender.",
+      "Add potatoes and carrots. Cook for 20 minutes until tender.",
+      "Serve the rich, savory stew hot with rice."
+    ],
+    "time": 150,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "lunch",
+    "nutrition": {
+      "calories": 480,
+      "protein": 40,
+      "carbs": 35,
+      "fat": 25
+    },
+    "link": "https://example.com/recipes/mechado"
+  },
+  {
+    "id": 31,
+    "picture": "caldereta.png",
+    "name": "Caldereta (Beef Stew with Liver Spread, Cheese, and Olives)",
+    "description": "Intense beef stew with liver spread, cheese, and olives",
+    "ingredients": ["1.5 lbs beef chunks", "1 cup tomato sauce", "½ cup liver spread", "¼ cup shredded cheese", "¼ cup olives", "1 red bell pepper (diced)", "1 potato (diced)", "1 carrot (diced)", "1 cup beef broth"],
+    "instructions": [
+      "Boil beef chunks until tender (1.5 to 2 hours). Reserve broth.",
+      "Sauté garlic and onion. Add pre-boiled beef.",
+      "Pour in tomato sauce and beef broth. Simmer for 30 minutes.",
+      "Stir in liver spread and shredded cheese until dissolved.",
+      "Add diced potatoes and carrots. Cook until tender.",
+      "Stir in olives and bell pepper.",
+      "Serve the rich, savory Caldereta hot with rice."
+    ],
+    "time": 165,
+    "difficulty": "hard",
+    "diet": "high-protein",
+    "meal_type": "lunch",
+    "nutrition": {
+      "calories": 550,
+      "protein": 45,
+      "carbs": 30,
+      "fat": 30
+    },
+    "link": "https://example.com/recipes/caldereta"
+  },
+  {
+    "id": 32,
+    "picture": "lumpiang-shanghai.jpg",
+    "name": "Lumpiang Shanghai (Deep-Fried Meat Spring Rolls)",
+    "description": "Crispy deep-fried meat spring rolls",
+    "ingredients": ["1 lb ground pork", "½ cup carrots (minced)", "¼ cup onion (minced)", "1 raw egg", "¼ cup water chestnuts (optional)", "1 tsp salt", "Lumpia wrappers", "frying oil", "Banana ketchup or sweet and sour sauce"],
+    "instructions": [
+      "Combine ground pork, minced vegetables, egg, and seasonings. Mix well.",
+      "Place small portion of filling near edge of lumpia wrapper.",
+      "Roll tightly and seal edges with water.",
+      "Deep-fry lumpia rolls in medium heat until golden brown.",
+      "Drain and serve hot with banana ketchup or sweet and sour sauce."
+    ],
+    "time": 75,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "lunch",
+    "nutrition": {
+      "calories": 300,
+      "protein": 15,
+      "carbs": 15,
+      "fat": 20
+    },
+    "link": "https://example.com/recipes/lumpiang-shanghai"
+  },
+  {
+    "id": 33,
+    "picture": "ginisang-munggo.jpg",
+    "name": "Ginisang Munggo (Sautéed Mung Bean Stew with Pork and Chicharon)",
+    "description": "Hearty mung bean stew with pork and crispy chicharon",
+    "ingredients": ["1 cup dried mung beans", "6 cups water", "½ lb pork belly (cubed)", "¼ cup shrimp (optional)", "1 bunch dahon ng ampalaya", "patis (fish sauce)", "1 onion", "3 cloves garlic", "chicharon (pork cracklings)"],
+    "instructions": [
+      "Boil dried mung beans in water until soft and breaking apart.",
+      "Sauté garlic and onion. Add pork belly and shrimp. Cook until browned.",
+      "Add cooked mung beans and bean broth to sautéed mixture.",
+      "Season with patis. Bring to simmer.",
+      "Add bitter melon leaves. Cook for 5 minutes.",
+      "Stir in chicharon just before serving.",
+      "Serve the thick, hearty stew hot with rice."
+    ],
+    "time": 105,
+    "difficulty": "medium",
+    "diet": "balanced",
+    "meal_type": "lunch",
+    "nutrition": {
+      "calories": 400,
+      "protein": 25,
+      "carbs": 35,
+      "fat": 20
+    },
+    "link": "https://example.com/recipes/ginisang-munggo"
+  },
+  {
+    "id": 34,
+    "picture": "pinakbet.jpg",
+    "name": "Pinakbet (Ilocano Vegetable Stew with Shrimp Paste)",
+    "description": "Traditional Ilocano vegetable stew with shrimp paste",
+    "ingredients": ["½ lb pork belly (cubed)", "¼ cup bagoong isda", "kalabasa (squash)", "talong (eggplant)", "sitaw (string beans)", "okra", "ampalaya (bitter melon)", "½ cup water"],
+    "instructions": [
+      "Sauté garlic and onion. Add pork belly and cook until fat is rendered.",
+      "Add bagoong isda and water. Bring to boil.",
+      "Layer hard vegetables first (squash), then eggplant, sitaw, okra, and ampalaya.",
+      "Cover and steam/simmer for 15-20 minutes until vegetables are tender-crisp.",
+      "Gently toss pot once vegetables are partially cooked.",
+      "Serve the savory vegetable stew hot."
+    ],
+    "time": 45,
+    "difficulty": "medium",
+    "diet": "balanced",
+    "meal_type": "lunch",
+    "nutrition": {
+      "calories": 350,
+      "protein": 15,
+      "carbs": 30,
+      "fat": 20
+    },
+    "link": "https://example.com/recipes/pinakbet"
+  },
+  {
+    "id": 35,
+    "picture": "inihaw-na-liempo.jpg",
+    "name": "Inihaw na Liempo (Grilled Pork Belly)",
+    "description": "Grilled marinated pork belly with crispy skin",
+    "ingredients": ["1.5 lbs pork belly slab", "½ cup soy sauce", "¼ cup vinegar", "¼ cup kalamansi juice", "1 Tbsp brown sugar", "1 head garlic (crushed)", "½ tsp pepper", "Soy sauce, kalamansi, chopped chili for dipping"],
+    "instructions": [
+      "Combine all marinade ingredients. Marinate pork belly for at least 4 hours.",
+      "Grill pork belly over hot coals, turning frequently.",
+      "Baste with reserved marinade during grilling.",
+      "Cook until pork is tender and skin is slightly charred and crisp.",
+      "Slice into serving pieces.",
+      "Serve hot with steamed rice and dipping sauce."
+    ],
+    "time": 240,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "lunch",
+    "nutrition": {
+      "calories": 600,
+      "protein": 35,
+      "carbs": 10,
+      "fat": 45
+    },
+    "link": "https://example.com/recipes/inihaw-liempo"
+  },
+  {
+    "id": 36,
+    "picture": "inihaw-na-manok.jpg",
+    "name": "Inihaw na Manok (Grilled Chicken)",
+    "description": "Filipino-style grilled chicken marinated in savory sauce",
+    "ingredients": ["1.5 lbs chicken leg quarters", "½ cup soy sauce", "¼ cup vinegar", "¼ cup kalamansi juice", "1 Tbsp sugar", "1 head garlic (crushed)", "½ tsp pepper", "Oil for basting"],
+    "instructions": [
+      "Combine all marinade ingredients. Marinate chicken for at least 4 hours.",
+      "Grill chicken over hot coals, turning frequently.",
+      "Baste with reserved marinade mixed with oil.",
+      "Cook until chicken is thoroughly cooked and slightly charred.",
+      "Serve hot with steamed rice and dipping sauce."
+    ],
+    "time": 240,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "lunch",
+    "nutrition": {
+      "calories": 450,
+      "protein": 40,
+      "carbs": 10,
+      "fat": 25
+    },
+    "link": "https://example.com/recipes/inihaw-manok"
+  },
+  {
+    "id": 37,
+    "picture": "chopsuey.jpg",
+    "name": "Chopsuey (Stir-fried Vegetables with Meat)",
+    "description": "Colorful stir-fried vegetables with meat in savory sauce",
+    "ingredients": ["½ lb chicken or pork (sliced)", "¼ lb shrimp", "1 head cauliflower", "1 head broccoli", "1 carrot (sliced)", "1 cup snow peas", "1 onion", "3 cloves garlic", "1 cup chicken broth", "1 Tbsp soy sauce", "1 Tbsp oyster sauce", "1 tsp cornstarch"],
+    "instructions": [
+      "Sauté garlic and onion. Add chicken/pork and shrimp. Cook until done. Set aside.",
+      "Stir-fry hard vegetables for 3 minutes. Add softer vegetables.",
+      "Pour in chicken broth, soy sauce, and oyster sauce. Bring to boil.",
+      "Thicken sauce with cornstarch slurry.",
+      "Return cooked meat and shrimp to pan. Toss to coat.",
+      "Serve immediately with rice."
+    ],
+    "time": 40,
+    "difficulty": "medium",
+    "diet": "balanced",
+    "meal_type": "lunch",
+    "nutrition": {
+      "calories": 350,
+      "protein": 25,
+      "carbs": 30,
+      "fat": 15
+    },
+    "link": "https://example.com/recipes/chopsuey"
+  },
+  {
+    "id": 38,
+    "picture": "bagnet.jpg",
+    "name": "Bagnet (Ilocano Deep-Fried Crispy Pork Belly)",
+    "description": "Ultra-crispy deep-fried pork belly from Ilocos",
+    "ingredients": ["1.5 lbs pork belly slab", "1 Tbsp salt", "1 tsp pepper", "2 bay leaves", "deep frying oil", "KBL (Kalamansi, Bagoong, Sibuyas) for dipping"],
+    "instructions": [
+      "Place pork belly in pot with water, salt, pepper, and bay leaves. Simmer for 1-1.5 hours.",
+      "Remove pork, pat skin dry, and prick skin all over.",
+      "Chill uncovered in refrigerator for at least 2 hours.",
+      "Fry chilled pork in medium-hot oil until light brown. Remove.",
+      "Increase heat to high and return pork for quick second fry until skin puffs up.",
+      "Chop into bite-sized pieces.",
+      "Serve immediately with KBL dipping sauce."
+    ],
+    "time": 180,
+    "difficulty": "hard",
+    "diet": "high-protein",
+    "meal_type": "lunch",
+    "nutrition": {
+      "calories": 750,
+      "protein": 40,
+      "carbs": 5,
+      "fat": 65
+    },
+    "link": "https://example.com/recipes/bagnet"
+  },
+  {
+    "id": 39,
+    "picture": "bulalo.jpg",
+    "name": "Bulalo (Beef Bone Marrow Soup)",
+    "description": "Hearty beef shank and bone marrow soup with vegetables",
+    "ingredients": ["2 lbs beef shanks (with bone marrow)", "1 large onion (quartered)", "1 tsp whole peppercorns", "1 large cabbage (quartered)", "2 ears of corn (cut)", "6 cups water", "patis to taste"],
+    "instructions": [
+      "Place beef shanks in large pot with water, onion, and peppercorns.",
+      "Bring to boil, skim foam, then simmer for 3-4 hours until tender.",
+      "Add corn and simmer for 15 minutes.",
+      "Season broth with salt and/or patis.",
+      "Add cabbage. Cook for 5 minutes to keep cabbage crisp.",
+      "Serve the hot, hearty soup with rice."
+    ],
+    "time": 240,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "lunch",
+    "nutrition": {
+      "calories": 600,
+      "protein": 45,
+      "carbs": 30,
+      "fat": 45
+    },
+    "link": "https://example.com/recipes/bulalo"
+  },
+  {
+    "id": 40,
+    "picture": "sisig.jpg",
+    "name": "Sisig (Sizzling Chopped Pork)",
+    "description": "Sizzling chopped pork with onions, chili, and egg",
+    "ingredients": ["1 lb pork face/ear", "¼ cup soy sauce", "¼ cup kalamansi juice", "1 head onion (minced)", "1 Tbsp mayonnaise (optional)", "3-5 siling labuyo", "1 raw egg", "1 Tbsp cooking oil"],
+    "instructions": [
+      "Boil pork face until tender. Grill or broil until skin is crisp.",
+      "Chop meat finely into small pieces.",
+      "Sauté chopped pork with onion in hot pan.",
+      "Season with salt and pepper.",
+      "Remove from heat and toss with kalamansi juice, soy sauce, and chilies.",
+      "Stir in mayonnaise for creaminess.",
+      "Transfer to hot sizzling platter.",
+      "Crack raw egg over mixture just before serving. Mix at table."
+    ],
+    "time": 90,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "lunch",
+    "nutrition": {
+      "calories": 550,
+      "protein": 35,
+      "carbs": 5,
+      "fat": 45
+    },
+    "link": "https://example.com/recipes/sisig"
+  },
+  {
+    "id": 41,
+    "picture": "chicken-inasal.jpg",
+    "name": "Chicken Inasal (Ilonggo Grilled Chicken)",
+    "description": "Ilonggo-style grilled chicken marinated in vinegar and spices",
+    "ingredients": ["1.5 lbs chicken leg quarters", "½ cup vinegar", "¼ cup kalamansi juice", "1 Tbsp ginger (crushed)", "1 Tbsp garlic (crushed)", "¼ cup atsuete oil for basting", "lemongrass (optional)", "Chicken oil, kalamansi, sili for dipping"],
+    "instructions": [
+      "Marinate chicken in vinegar, kalamansi, garlic, ginger, lemongrass, and salt for 6+ hours.",
+      "Grill chicken over medium-low heat.",
+      "Baste constantly with atsuete oil and reserved marinade.",
+      "Cook until chicken is tender and has deep golden color.",
+      "Serve hot with rice, drizzled with atsuete oil and dipping sauce."
+    ],
+    "time": 360,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "lunch",
+    "nutrition": {
+      "calories": 480,
+      "protein": 45,
+      "carbs": 5,
+      "fat": 30
+    },
+    "link": "https://example.com/recipes/chicken-inasal"
+  },
+  {
+    "id": 42,
+    "picture": "lechon-kawali.jpg",
+    "name": "Lechon Kawali (Deep-Fried Crispy Pork Belly)",
+    "description": "Crispy deep-fried pork belly with crackling skin",
+    "ingredients": ["1.5 lbs slab of pork belly", "1 Tbsp salt", "1 tsp pepper", "2 bay leaves", "deep frying oil", "Mang Tomas sauce or vinegar-garlic dip"],
+    "instructions": [
+      "Boil pork belly slab with salt, pepper, and bay leaves until tender (1 to 1.5 hours).",
+      "Prick the skin all over. Pat pork thoroughly dry.",
+      "Chill uncovered in refrigerator for at least 2 hours or overnight.",
+      "Deep-fry chilled pork belly in medium-hot oil until skin is golden brown and crackling.",
+      "Chop into serving pieces.",
+      "Serve immediately while hot and crispy with dipping sauce."
+    ],
+    "time": 150,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "dinner",
+    "nutrition": {
+      "calories": 700,
+      "protein": 35,
+      "carbs": 5,
+      "fat": 60
+    },
+    "link": "https://example.com/recipes/lechon-kawali"
+  },
+  {
+    "id": 43,
+    "picture": "crispy-pata.jpg",
+    "name": "Crispy Pata (Deep-Fried Pork Knuckles/Hock)",
+    "description": "Deep-fried pork knuckle with crispy crackling skin",
+    "ingredients": ["1 whole pork hock/knuckle", "1 Tbsp salt", "1 tsp peppercorns", "2 bay leaves", "deep frying oil", "Soy sauce, vinegar, crushed garlic, chopped chili for dipping"],
+    "instructions": [
+      "Boil pork pata with seasonings until very tender (2.5 to 3 hours).",
+      "Remove and pat dry thoroughly.",
+      "Chill uncovered for at least 3 hours or overnight.",
+      "Deep-fry pata in hot oil until skin is golden and develops hard, crispy crackling.",
+      "Serve whole fried pata with dipping sauce on the side."
+    ],
+    "time": 240,
+    "difficulty": "hard",
+    "diet": "high-protein",
+    "meal_type": "dinner",
+    "nutrition": {
+      "calories": 800,
+      "protein": 45,
+      "carbs": 5,
+      "fat": 70
+    },
+    "link": "https://example.com/recipes/crispy-pata"
+  },
+  {
+    "id": 44,
+    "picture": "nilaga.jpg",
+    "name": "Nilaga (Boiled Beef with Vegetables)",
+    "description": "Clear beef soup with tender beef and vegetables",
+    "ingredients": ["1.5 lbs beef shank or short ribs", "8 cups water", "1 onion (quartered)", "1 tsp whole peppercorns", "2 potatoes (cubed)", "1 cabbage (quartered)", "patis to taste"],
+    "instructions": [
+      "Place beef, water, onion, and peppercorns in pot.",
+      "Simmer on low heat for 2 to 2.5 hours until beef is fork-tender.",
+      "Add potatoes and cook for 15 minutes.",
+      "Season broth with salt and/or patis.",
+      "Add cabbage and cook for just 5 minutes.",
+      "Serve hot clear broth soup with rice."
+    ],
+    "time": 150,
+    "difficulty": "easy",
+    "diet": "high-protein",
+    "meal_type": "dinner",
+    "nutrition": {
+      "calories": 380,
+      "protein": 30,
+      "carbs": 25,
+      "fat": 20
+    },
+    "link": "https://example.com/recipes/nilaga"
+  },
+  {
+    "id": 45,
+    "picture": "tinolang-manok.jpg",
+    "name": "Tinolang Manok (Chicken Ginger Soup)",
+    "description": "Hearty chicken soup with ginger and green papaya",
+    "ingredients": ["1.5 lbs chicken pieces", "1 piece ginger (julienned)", "½ green papaya (cubed)", "1 cup dahon ng sili or malunggay", "6 cups water/broth", "1 Tbsp patis"],
+    "instructions": [
+      "Sauté garlic, onion, and ginger in oil until fragrant.",
+      "Add chicken pieces and cook until lightly browned.",
+      "Season with patis.",
+      "Pour in water or broth. Simmer for 30 minutes until chicken is tender.",
+      "Add cubed green papaya. Simmer for 10-15 minutes until tender.",
+      "Stir in dahon ng sili or malunggay leaves. Cook for 2 minutes.",
+      "Serve hot with rice."
+    ],
+    "time": 60,
+    "difficulty": "easy",
+    "diet": "high-protein",
+    "meal_type": "dinner",
+    "nutrition": {
+      "calories": 350,
+      "protein": 30,
+      "carbs": 15,
+      "fat": 18
+    },
+    "link": "https://example.com/recipes/tinolang-manok"
+  },
+  {
+    "id": 46,
+    "picture": "inihaw-na-isda.jpg",
+    "name": "Inihaw na Isda (Grilled Fish)",
+    "description": "Whole grilled fish stuffed with aromatics",
+    "ingredients": ["1 whole fish (tilapia or pompano)", "1 onion (chopped)", "1 tomato (chopped)", "ginger (julienned)", "salt and pepper", "1 Tbsp cooking oil", "Soy sauce, kalamansi, chopped chili for dipping"],
+    "instructions": [
+      "Mix chopped onion, tomato, and ginger for stuffing.",
+      "Season fish cavity and stuff with mixture.",
+      "Brush outside of fish with oil.",
+      "Grill fish over medium heat, turning once, for 15-20 minutes.",
+      "Cook until meat is flaky and fully cooked.",
+      "Serve smoky grilled fish with dipping sauce and rice."
+    ],
+    "time": 45,
+    "difficulty": "easy",
+    "diet": "high-protein",
+    "meal_type": "dinner",
+    "nutrition": {
+      "calories": 320,
+      "protein": 35,
+      "carbs": 5,
+      "fat": 15
+    },
+    "link": "https://example.com/recipes/inihaw-isda"
+  },
+  {
+    "id": 47,
+    "picture": "daing-bangus.jpg",
+    "name": "Daing na Bangus (Vinegar-Marinated Milkfish)",
+    "description": "Vinegar-marinated milkfish fried until crispy",
+    "ingredients": ["1 whole boneless bangus (butterflied)", "½ cup vinegar", "1 head garlic (crushed)", "1 tsp salt", "½ tsp pepper", "frying oil", "Vinegar and chili for dipping"],
+    "instructions": [
+      "Combine vinegar, crushed garlic, salt, and pepper for marinade.",
+      "Marinate bangus for at least 4 hours, or overnight.",
+      "Fry marinated bangus until skin is golden brown and crispy.",
+      "Cook until meat is cooked through.",
+      "Serve crispy, tangy fish with garlic rice and vinegar-chili dip."
+    ],
+    "time": 240,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "dinner",
+    "nutrition": {
+      "calories": 450,
+      "protein": 35,
+      "carbs": 5,
+      "fat": 30
+    },
+    "link": "https://example.com/recipes/daing-bangus"
+  },
+  {
+    "id": 48,
+    "picture": "tokwa-baboy.jpg",
+    "name": "Tokwa't Baboy (Tofu and Pork Belly)",
+    "description": "Tofu and pork belly in vinegar-soy dressing",
+    "ingredients": ["1 lb pork belly (cubed)", "1 block firm tofu", "½ cup vinegar", "¼ cup soy sauce", "1 tsp sugar", "1 onion (thinly sliced)", "1 Tbsp minced ginger", "frying oil"],
+    "instructions": [
+      "Boil pork belly until tender. Chop into bite-sized cubes.",
+      "Cut tofu into cubes. Deep-fry until golden brown and crispy.",
+      "Whisk together vinegar, soy sauce, minced ginger, sugar, and water for dressing.",
+      "Combine chopped boiled pork and fried tofu.",
+      "Pour dressing over top and garnish with sliced onion.",
+      "Serve as appetizer or main dish."
+    ],
+    "time": 60,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "dinner",
+    "nutrition": {
+      "calories": 400,
+      "protein": 25,
+      "carbs": 15,
+      "fat": 25
+    },
+    "link": "https://example.com/recipes/tokwa-baboy"
+  },
+  {
+    "id": 49,
+    "picture": "rellenong-bangus.jpg",
+    "name": "Rellenong Bangus (Stuffed Milkfish)",
+    "description": "Deboned milkfish stuffed with meat and vegetable mixture",
+    "ingredients": ["1 large whole bangus", "½ lb ground pork", "1 carrot (minced)", "1 potato (diced)", "½ cup raisins", "1 egg", "¼ cup flour", "½ cup tomato sauce for topping"],
+    "instructions": [
+      "Debone fish, carefully scraping out meat and keeping skin intact.",
+      "Flake fish meat and combine with ground pork, minced vegetables, raisins, and egg.",
+      "Season stuffing mixture well.",
+      "Stuff fish skin with mixture. Seal opening. Dust lightly with flour.",
+      "Steam stuffed fish for 30 minutes.",
+      "Pan-fry fish until skin is golden brown.",
+      "Serve with tomato sauce."
+    ],
+    "time": 120,
+    "difficulty": "hard",
+    "diet": "high-protein",
+    "meal_type": "dinner",
+    "nutrition": {
+      "calories": 550,
+      "protein": 40,
+      "carbs": 30,
+      "fat": 30
+    },
+    "link": "https://example.com/recipes/rellenong-bangus"
+  },
+  {
+    "id": 50,
+    "picture": "ginataang-gulay.jpg",
+    "name": "Ginataang Gulay (Vegetables in Coconut Milk)",
+    "description": "Mixed vegetables cooked in rich coconut milk",
+    "ingredients": ["2 cups thick coconut milk", "1 cup kalabasa (cubed)", "1 cup sitaw", "½ lb shrimp or pork", "1 onion", "3 cloves garlic", "1 Tbsp bagoong or salt", "1 piece ginger"],
+    "instructions": [
+      "Sauté garlic, onion, and ginger.",
+      "Add shrimp/pork and cook briefly.",
+      "Pour in coconut milk. Add kalabasa. Bring to simmer.",
+      "Season sauce with bagoong or salt and pepper.",
+      "Simmer until squash is tender.",
+      "Add sitaw. Cook until beans are tender-crisp.",
+      "Serve when sauce has thickened."
+    ],
+    "time": 45,
+    "difficulty": "easy",
+    "diet": "balanced",
+    "meal_type": "dinner",
+    "nutrition": {
+      "calories": 420,
+      "protein": 20,
+      "carbs": 25,
+      "fat": 30
+    },
+    "link": "https://example.com/recipes/ginataang-gulay"
+  },
+  {
+    "id": 51,
+    "picture": "adobong-pusit.jpg",
+    "name": "Adobong Pusit (Squid Adobo)",
+    "description": "Squid cooked adobo-style in vinegar and soy sauce",
+    "ingredients": ["1 lb fresh squid", "¼ cup vinegar", "¼ cup soy sauce", "1 head garlic (crushed)", "½ tsp whole peppercorns", "1 bay leaf", "1 Tbsp cooking oil"],
+    "instructions": [
+      "Clean squid, keeping ink sacs intact.",
+      "Sauté garlic. Add squid.",
+      "Pour in soy sauce, vinegar, peppercorns, and bay leaf.",
+      "Bring to boil, then simmer, covered, for 15-20 minutes.",
+      "Uncover and let sauce reduce to glossy black gravy.",
+      "Serve with rice."
+    ],
+    "time": 35,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "dinner",
+    "nutrition": {
+      "calories": 250,
+      "protein": 25,
+      "carbs": 5,
+      "fat": 10
+    },
+    "link": "https://example.com/recipes/adobong-pusit"
+  },
+  {
+    "id": 52,
+    "picture": "pochero.png",
+    "name": "Pochero (Beef Stew with Saba Bananas)",
+    "description": "Beef stew with saba bananas and chorizo",
+    "ingredients": ["1.5 lbs beef shank/short ribs", "1 cup tomato sauce", "2 saba bananas (sliced)", "½ cup chorizo de bilbao (sliced)", "1 cup pechay", "1 potato (cubed)", "1 cup beef broth"],
+    "instructions": [
+      "Boil beef chunks until tender (1.5 to 2 hours). Reserve broth.",
+      "Sauté garlic, onion, and chorizo.",
+      "Add beef, tomato sauce, and beef broth.",
+      "Add potatoes and saba bananas. Simmer for 30 minutes.",
+      "Stir in pechay. Cook for 5 minutes.",
+      "Serve hot with rice."
+    ],
+    "time": 150,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "dinner",
+    "nutrition": {
+      "calories": 520,
+      "protein": 40,
+      "carbs": 38,
+      "fat": 28
+    },
+    "link": "https://example.com/recipes/pochero"
+  },
+  {
+    "id": 53,
+    "picture": "paksiw-lechon.jpg",
+    "name": "Paksiw na Lechon (Lechon Stew in Vinegar and Liver Sauce)",
+    "description": "Leftover lechon stewed in vinegar and liver sauce",
+    "ingredients": ["1 lb leftover Lechon", "½ cup liver sauce", "¼ cup cane vinegar", "¼ cup water", "1 head garlic (crushed)", "½ tsp whole peppercorns", "1 bay leaf", "1 Tbsp brown sugar"],
+    "instructions": [
+      "Sauté garlic. Add Lechon pieces.",
+      "Pour in vinegar and bring to quick boil.",
+      "Add liver sauce, water, peppercorns, bay leaf, and brown sugar.",
+      "Bring to simmer.",
+      "Simmer uncovered for 20-30 minutes until sauce thickens to glossy gravy.",
+      "Serve with rice."
+    ],
+    "time": 45,
+    "difficulty": "easy",
+    "diet": "high-protein",
+    "meal_type": "dinner",
+    "nutrition": {
+      "calories": 650,
+      "protein": 40,
+      "carbs": 15,
+      "fat": 50
+    },
+    "link": "https://example.com/recipes/paksiw-lechon"
+  },
+  {
+    "id": 54,
+    "picture": "kare-kare-dinner.jpg",
+    "name": "Kare-Kare (Oxtail and Tripe Stew in Peanut Sauce)",
+    "description": "Oxtail and tripe in rich peanut sauce with vegetables",
+    "ingredients": ["1.5 lbs oxtail and tripe", "1 cup peanut butter", "¼ cup toasted ground rice", "1 bundle sitaw", "1 bundle pechay", "talong", "Bagoong Alamang for side"],
+    "instructions": [
+      "Boil oxtail and tripe until very tender (2-3 hours). Reserve broth.",
+      "Stir in peanut butter and toasted ground rice until sauce is thick.",
+      "Add atsuete oil for color.",
+      "Add meat back into sauce.",
+      "Blanch vegetables separately.",
+      "Serve meat and vegetables covered with peanut sauce, with bagoong alamang."
+    ],
+    "time": 180,
+    "difficulty": "hard",
+    "diet": "high-protein",
+    "meal_type": "dinner",
+    "nutrition": {
+      "calories": 650,
+      "protein": 45,
+      "carbs": 35,
+      "fat": 45
+    },
+    "link": "https://example.com/recipes/kare-kare-dinner"
+  },
+  {
+    "id": 55,
+    "picture": "lechon-cebu.jpg",
+    "name": "Lechon Cebu (Cebu Style Roasted Suckling Pig)",
+    "description": "Cebu-style roasted pig with incredibly crispy skin",
+    "ingredients": ["1 lb Lechon meat", "½ cup Lechon drippings or lard", "½ cup soy sauce/vinegar mix (optional)"],
+    "instructions": [
+      "Reheat Lechon portions in turbo broiler or oven until skin is crisp.",
+      "Chop Lechon into serving pieces.",
+      "Serve the crispy-skinned, flavorful pork hot with rice.",
+      "No sauce needed due to well-seasoned meat from roasting process."
+    ],
+    "time": 20,
+    "difficulty": "easy",
+    "diet": "high-protein",
+    "meal_type": "dinner",
+    "nutrition": {
+      "calories": 780,
+      "protein": 45,
+      "carbs": 2,
+      "fat": 65
+    },
+    "link": "https://example.com/recipes/lechon-cebu"
+  },
+  {
+    "id": 56,
+    "picture": "lumpiang-ubod.jpg",
+    "name": "Lumpiang Ubod (Fresh Spring Rolls with Palm Heart)",
+    "description": "Fresh spring rolls with palm heart and shrimp filling",
+    "ingredients": ["1 cup ubod (julienned)", "½ lb shrimp", "½ cup ground pork", "1 cup chicken broth", "1 cup cabbage (shredded)", "1 head garlic (minced)", "soft lumpia wrappers", "crushed peanuts", "Brown sugar, cornstarch, soy sauce, water for sauce"],
+    "instructions": [
+      "Sauté garlic and onion. Add pork and shrimp.",
+      "Add ubod and cabbage. Pour in chicken broth and simmer until tender.",
+      "Combine sauce ingredients and cook until thick and glossy.",
+      "Lay out soft lumpia wrapper. Top with lettuce, filling, and sauce.",
+      "Fold edges inward.",
+      "Serve fresh, topped with crushed peanuts and more sauce."
+    ],
+    "time": 60,
+    "difficulty": "medium",
+    "diet": "balanced",
+    "meal_type": "dinner",
+    "nutrition": {
+      "calories": 350,
+      "protein": 20,
+      "carbs": 40,
+      "fat": 15
+    },
+    "link": "https://example.com/recipes/lumpiang-ubod"
+  },
+  {
+    "id": 57,
+    "picture": "piyanggang-manok.jpg",
+    "name": "Piyanggang Manok (Tausug Blackened Chicken in Coconut Milk)",
+    "description": "Tausug-style chicken in burnt coconut and turmeric sauce",
+    "ingredients": ["1.5 lbs chicken pieces", "1 cup coconut milk", "¼ cup toasted coconut meat", "¼ cup turmeric paste", "1 Tbsp pamapa spice mix", "1 Tbsp ginger (crushed)", "salt to taste"],
+    "instructions": [
+      "Marinate chicken in turmeric and salt.",
+      "Toast shredded coconut until black. Grind into powder.",
+      "Sauté garlic and ginger. Add chicken and cook briefly.",
+      "Pour in coconut milk, pamapa spice mix, and burnt coconut powder.",
+      "Bring to simmer.",
+      "Simmer covered for 45 minutes until chicken is tender.",
+      "Serve when sauce is thick and dark."
+    ],
+    "time": 90,
+    "difficulty": "hard",
+    "diet": "high-protein",
+    "meal_type": "dinner",
+    "nutrition": {
+      "calories": 480,
+      "protein": 35,
+      "carbs": 15,
+      "fat": 35
+    },
+    "link": "https://example.com/recipes/piyanggang-manok"
+  },
+  {
+    "id": 58,
+    "picture": "barbecued-tuna.jpg",
+    "name": "Barbecued Tuna Belly (Grilled Tuna Belly with Marinade)",
+    "description": "Grilled tuna belly marinated in savory sauce",
+    "ingredients": ["1.5 lbs tuna belly fillet", "½ cup soy sauce", "¼ cup kalamansi juice", "1 Tbsp brown sugar", "1 head garlic (crushed)", "½ tsp black pepper", "oil for basting"],
+    "instructions": [
+      "Combine soy sauce, kalamansi juice, brown sugar, garlic, and pepper for marinade.",
+      "Marinate tuna belly for at least 2 hours.",
+      "Grill tuna belly over medium-high heat.",
+      "Baste frequently with marinade mixed with oil.",
+      "Grill each side for 5-7 minutes until cooked through but moist.",
+      "Serve with rice and vegetables."
+    ],
+    "time": 120,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "dinner",
+    "nutrition": {
+      "calories": 380,
+      "protein": 35,
+      "carbs": 8,
+      "fat": 20
+    },
+    "link": "https://example.com/recipes/barbecued-tuna"
+  },
+  {
+    "id": 59,
+    "picture": "chicken-curry.jpg",
+    "name": "Luyang Dilaw Chicken Curry (Chicken Curry with Turmeric)",
+    "description": "Chicken curry with fresh turmeric and coconut milk",
+    "ingredients": ["1.5 lbs chicken pieces", "1 cup coconut milk", "¼ cup fresh turmeric (crushed)", "2 potatoes (cubed)", "1 carrot (cubed)", "1 green bell pepper (sliced)", "1 Tbsp curry powder", "1 Tbsp patis"],
+    "instructions": [
+      "Sauté garlic and onion. Add chicken pieces. Cook until browned.",
+      "Stir in fresh crushed turmeric and curry powder. Cook for 2 minutes.",
+      "Pour in coconut milk. Add potatoes and carrots.",
+      "Season with patis. Simmer for 30 minutes.",
+      "Add green bell pepper. Simmer for 5 minutes.",
+      "Serve hot with rice."
+    ],
+    "time": 60,
+    "difficulty": "medium",
+    "diet": "high-protein",
+    "meal_type": "dinner",
+    "nutrition": {
+      "calories": 450,
+      "protein": 35,
+      "carbs": 25,
+      "fat": 30
+    },
+    "link": "https://example.com/recipes/chicken-curry"
+  },
+  {
+    "id": 60,
+    "picture": "chopsuey-dinner.jpg",
+    "name": "Chopsuey (Filipino Stir-fried Vegetables with Meat)",
+    "description": "Stir-fried mixed vegetables with meat in savory sauce",
+    "ingredients": ["½ lb chicken or pork (sliced)", "¼ lb shrimp", "1 head cauliflower", "1 head broccoli", "1 carrot (sliced)", "1 cup snow peas", "1 cup chicken broth", "1 Tbsp soy sauce", "1 Tbsp oyster sauce", "1 tsp cornstarch"],
+    "instructions": [
+      "Sauté meat and shrimp. Set aside.",
+      "Stir-fry hard vegetables. Add softer vegetables.",
+      "Pour in chicken broth, soy sauce, and oyster sauce. Bring to boil.",
+      "Thicken sauce with cornstarch slurry.",
+      "Return cooked meat and shrimp to pan. Toss quickly.",
+      "Serve immediately with rice."
+    ],
+    "time": 40,
+    "difficulty": "medium",
+    "diet": "balanced",
+    "meal_type": "dinner",
+    "nutrition": {
+      "calories": 350,
+      "protein": 25,
+      "carbs": 30,
+      "fat": 15
+    },
+    "link": "https://example.com/recipes/chopsuey-dinner"
+  },
+  {
+    "id": 61,
+    "picture": "giniling-quail-egg.jpg",
+    "name": "Giniling w/ Quail Egg (Ground Pork and Tomato Stew with Quail Eggs)",
+    "description": "Ground pork stew with vegetables and quail eggs in tomato sauce",
+    "ingredients": ["1 lb ground pork", "1 cup tomato sauce", "1 cup water", "1 potato (diced)", "1 carrot (diced)", "½ cup green peas", "12 pieces boiled quail eggs", "¼ cup soy sauce", "1 Tbsp sugar"],
+    "instructions": [
+      "Sauté garlic and onion. Add ground pork and cook until browned.",
+      "Pour in tomato sauce and water. Add potatoes and carrots.",
+      "Season with soy sauce, salt, and sugar. Simmer for 20 minutes.",
+      "Stir in green peas and boiled quail eggs. Simmer for 5 minutes.",
+      "Serve hot with rice."
+    ],
+    "time": 45,
+    "difficulty": "easy",
+    "diet": "high-protein",
+    "meal_type": "dinner",
+    "nutrition": {
+      "calories": 450,
+      "protein": 30,
+      "carbs": 30,
+      "fat": 25
+    },
+    "link": "https://example.com/recipes/giniling-quail-egg"
+  },
+  {
+    "id": 62,
+    "picture": "halo-halo.jpg",
+    "name": "Halo-Halo (Mixed Dessert)",
+    "description": "Iconic Filipino shaved ice dessert with mixed sweet ingredients and evaporated milk",
+    "ingredients": ["2 cups shaved ice", "½ cup sweetened banana", "½ cup sweetened jackfruit", "½ cup sweetened beans", "½ cup macapuno", "½ cup nata de coco", "½ cup kaong", "2 scoops ube ice cream", "½ cup evaporated milk", "¼ cup leche flan", "2 tbsp sugar"],
+    "instructions": [
+      "In a tall glass, layer the sweet ingredients: banana, jackfruit, beans, macapuno, nata de coco, and kaong.",
+      "Add shaved ice on top of the sweet ingredients.",
+      "Drizzle evaporated milk over the shaved ice.",
+      "Top with ube ice cream and a slice of leche flan.",
+      "Sprinkle with sugar if desired.",
+      "Mix well before eating and serve immediately."
+    ],
+    "time": 15,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "meal_type": "dessert",
+    "nutrition": {
+      "calories": 420,
+      "protein": 8,
+      "carbs": 75,
+      "fat": 12
+    },
+    "link": "https://www.kawalingpinoy.com/halo-halo/"
+  },
+  {
+    "id": 63,
+    "picture": "leche-flan.jpg",
+    "name": "Leche Flan (Caramel Custard)",
+    "description": "Rich and creamy caramel custard made with egg yolks and condensed milk",
+    "ingredients": ["10 egg yolks", "1 can condensed milk", "1 can evaporated milk", "1 tsp vanilla extract", "¾ cup sugar", "¼ cup water"],
+    "instructions": [
+      "Make caramel: Melt sugar with water in llanera over low heat until golden brown.",
+      "Swirl to coat bottom of llanera evenly. Set aside to cool.",
+      "In a bowl, beat egg yolks gently. Add condensed milk, evaporated milk, and vanilla.",
+      "Strain mixture through fine sieve to remove bubbles.",
+      "Pour mixture into caramel-coated llanera.",
+      "Steam for 30-40 minutes or until firm.",
+      "Cool completely before refrigerating.",
+      "To serve, invert onto serving plate."
+    ],
+    "time": 60,
+    "difficulty": "medium",
+    "diet": "vegetarian",
+    "meal_type": "dessert",
+    "nutrition": {
+      "calories": 280,
+      "protein": 8,
+      "carbs": 35,
+      "fat": 12
+    },
+    "link": "https://panlasangpinoy.com/leche-flan-recipe/"
+  },
+  {
+    "id": 64,
+    "picture": "buko-pandan.jpg",
+    "name": "Buko Pandan (Coconut Pandan Dessert)",
+    "description": "Refreshing coconut dessert with pandan-flavored jelly and cream",
+    "ingredients": ["4 cups young coconut strips", "2 packs green gelatin or pandan jelly", "2 cups condensed milk", "1 cup cream or all-purpose cream", "1 tsp pandan flavoring", "½ cup nata de coco", "½ cup kaong"],
+    "instructions": [
+      "Prepare pandan jelly according to package instructions. Cut into cubes.",
+      "In a large bowl, combine coconut strips and pandan jelly cubes.",
+      "Add nata de coco and kaong.",
+      "In separate bowl, mix condensed milk, cream, and pandan flavoring.",
+      "Pour cream mixture over coconut and jelly mixture.",
+      "Mix gently until well combined.",
+      "Chill for at least 2 hours before serving.",
+      "Garnish with extra coconut strips if desired."
+    ],
+    "time": 30,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "meal_type": "dessert",
+    "nutrition": {
+      "calories": 320,
+      "protein": 6,
+      "carbs": 45,
+      "fat": 15
+    },
+    "link": "https://www.foxyfolksy.com/buko-pandan-salad-recipe/"
+  },
+  {
+    "id": 65,
+    "picture": "ube-halaya.jpg",
+    "name": "Ube Halaya (Purple Yam Jam)",
+    "description": "Sweet purple yam jam cooked with coconut milk and condensed milk",
+    "ingredients": ["2 lbs purple yam (ube), boiled and grated", "2 cups coconut milk", "1 can condensed milk", "½ cup butter", "½ cup sugar", "1 tsp vanilla extract", "½ cup evaporated milk"],
+    "instructions": [
+      "Peel and grate boiled purple yam until fine.",
+      "In a heavy pan, melt butter over medium heat.",
+      "Add grated ube and cook for 5 minutes, stirring constantly.",
+      "Add coconut milk and stir until well combined.",
+      "Add condensed milk, sugar, and vanilla extract.",
+      "Cook over low heat, stirring continuously to prevent burning.",
+      "Add evaporated milk gradually while stirring.",
+      "Cook until mixture thickens and pulls away from pan sides.",
+      "Transfer to greased containers and cool completely."
+    ],
+    "time": 90,
+    "difficulty": "medium",
+    "diet": "vegetarian",
+    "meal_type": "dessert",
+    "nutrition": {
+      "calories": 250,
+      "protein": 4,
+      "carbs": 35,
+      "fat": 12
+    },
+    "link": "https://www.kawalingpinoy.com/ube-halaya/"
+  },
+  {
+    "id": 66,
+    "picture": "biko.jpg",
+    "name": "Biko (Sticky Rice Cake)",
+    "description": "Sweet sticky rice cake with coconut caramel topping",
+    "ingredients": ["2 cups glutinous rice", "2 cups coconut milk", "1 cup brown sugar", "½ cup white sugar", "1 tsp salt", "½ cup coconut cream", "1 tbsp latik (coconut curds)"],
+    "instructions": [
+      "Wash glutinous rice and cook with coconut milk in rice cooker.",
+      "In a separate pan, combine brown sugar, white sugar, and salt with ½ cup water.",
+      "Cook sugar mixture until thick syrup forms.",
+      "Add cooked sticky rice to syrup and mix well.",
+      "Transfer mixture to greased baking pan and flatten surface.",
+      "Pour coconut cream over top and spread evenly.",
+      "Bake at 350°F for 20-30 minutes or until golden brown.",
+      "Sprinkle with latik before serving."
+    ],
+    "time": 60,
+    "difficulty": "medium",
+    "diet": "vegetarian",
+    "meal_type": "dessert",
+    "nutrition": {
+      "calories": 380,
+      "protein": 5,
+      "carbs": 70,
+      "fat": 10
+    },
+    "link": "https://panlasangpinoy.com/biko-recipe/"
+  },
+  {
+    "id": 67,
+    "picture": "sapin-sapin.jpg",
+    "name": "Sapin-Sapin (Layered Sticky Rice Cake)",
+    "description": "Colorful layered glutinous rice cake in purple, white, and yellow layers",
+    "ingredients": ["4 cups glutinous rice flour", "2 cups coconut milk", "1 can condensed milk", "1 cup sugar", "1 cup grated coconut", "½ cup ube flavoring", "½ cup langka flavoring", "¼ cup water"],
+    "instructions": [
+      "In a bowl, mix glutinous rice flour, coconut milk, condensed milk, and sugar.",
+      "Divide mixture into 3 equal parts.",
+      "Add ube flavoring to first part for purple layer.",
+      "Leave second part plain for white layer.",
+      "Add langka flavoring to third part for yellow layer.",
+      "Grease baking pan and pour purple layer first.",
+      "Steam for 15 minutes until set.",
+      "Add white layer and steam for another 15 minutes.",
+      "Add yellow layer and steam for final 20 minutes.",
+      "Cool before slicing and serve with grated coconut."
+    ],
+    "time": 75,
+    "difficulty": "hard",
+    "diet": "vegetarian",
+    "meal_type": "dessert",
+    "nutrition": {
+      "calories": 320,
+      "protein": 6,
+      "carbs": 55,
+      "fat": 12
+    },
+    "link": "https://www.kawalingpinoy.com/sapin-sapin/"
+  },
+  {
+    "id": 68,
+    "picture": "turon.png",
+    "name": "Turon (Banana Spring Rolls)",
+    "description": "Crispy fried spring rolls with banana and jackfruit filling",
+    "ingredients": ["8 saba bananas", "16 pieces lumpia wrappers", "1 cup jackfruit strips", "½ cup brown sugar", "1 cup cooking oil", "½ cup water"],
+    "instructions": [
+      "Peel saba bananas and cut in half lengthwise.",
+      "Place banana piece on lumpia wrapper.",
+      "Add jackfruit strip on top of banana.",
+      "Sprinkle with brown sugar.",
+      "Roll wrapper tightly, sealing edges with water.",
+      "Heat oil in pan over medium heat.",
+      "Fry turon until golden brown and crispy.",
+      "Drain on paper towels.",
+      "Serve warm as snack or dessert."
+    ],
+    "time": 30,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "meal_type": "dessert",
+    "nutrition": {
+      "calories": 220,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 8
+    },
+    "link": "https://www.foxyfolksy.com/turon-recipe/"
+  },
+  {
+    "id": 69,
+    "picture": "maja-blanca.jpg",
+    "name": "Maja Blanca (Coconut Pudding)",
+    "description": "Creamy coconut milk pudding with sweet corn topping",
+    "ingredients": ["1 cup cornstarch", "4 cups coconut milk", "1 can condensed milk", "¾ cup sugar", "1 cup sweet corn kernels", "½ cup coconut cream", "¼ cup toasted coconut"],
+    "instructions": [
+      "In a bowl, dissolve cornstarch in 1 cup coconut milk.",
+      "In a pot, combine remaining coconut milk, condensed milk, and sugar.",
+      "Bring to boil over medium heat, stirring constantly.",
+      "Add sweet corn kernels.",
+      "Add dissolved cornstarch mixture slowly while stirring.",
+      "Cook until mixture thickens to pudding consistency.",
+      "Pour into greased mold or baking dish.",
+      "Spread coconut cream on top and sprinkle with toasted coconut.",
+      "Chill for at least 2 hours before serving."
+    ],
+    "time": 35,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "meal_type": "dessert",
+    "nutrition": {
+      "calories": 280,
+      "protein": 5,
+      "carbs": 40,
+      "fat": 15
+    },
+    "link": "https://panlasangpinoy.com/maja-blanca-recipe/"
+  },
+  {
+    "id": 70,
+    "picture": "bibingka.jpg",
+    "name": "Bibingka (Rice Cake)",
+    "description": "Traditional Filipino rice cake cooked in clay pot with banana leaves",
+    "ingredients": ["2 cups rice flour", "½ cup all-purpose flour", "2 tbsp baking powder", "¾ cup sugar", "2 eggs", "1¾ cups coconut milk", "¼ cup butter", "salted eggs", "grated coconut", "banana leaves"],
+    "instructions": [
+      "Line baking pans with banana leaves and grease with butter.",
+      "Preheat oven to 375°F.",
+      "In a bowl, sift together rice flour, all-purpose flour, and baking powder.",
+      "In another bowl, beat eggs and sugar until light and fluffy.",
+      "Add coconut milk and melted butter to egg mixture.",
+      "Gradually add dry ingredients and mix until smooth.",
+      "Pour batter into prepared pans.",
+      "Top with sliced salted eggs.",
+      "Bake for 20-25 minutes or until golden brown.",
+      "Serve warm with grated coconut and butter."
+    ],
+    "time": 45,
+    "difficulty": "medium",
+    "diet": "vegetarian",
+    "meal_type": "dessert",
+    "nutrition": {
+      "calories": 300,
+      "protein": 6,
+      "carbs": 45,
+      "fat": 12
+    },
+    "link": "https://panlasangpinoy.com/bibingka-recipe/"
+  },
+  {
+    "id": 71,
+    "picture": "cassava-cake.jpg",
+    "name": "Cassava Cake",
+    "description": "Sweet cassava cake with coconut and cheese topping",
+    "ingredients": ["4 cups grated cassava", "1 can condensed milk", "1 can evaporated milk", "2 eggs", "¾ cup sugar", "½ cup butter", "½ cup grated cheese", "½ cup coconut cream"],
+    "instructions": [
+      "Preheat oven to 350°F.",
+      "In a bowl, combine grated cassava, condensed milk, evaporated milk, eggs, and sugar.",
+      "Mix well until smooth consistency.",
+      "Add melted butter and mix thoroughly.",
+      "Pour mixture into greased baking pan.",
+      "Bake for 45 minutes or until set.",
+      "Remove from oven and spread coconut cream on top.",
+      "Sprinkle with grated cheese.",
+      "Return to oven and bake for another 15 minutes.",
+      "Cool before slicing and serving."
+    ],
+    "time": 75,
+    "difficulty": "medium",
+    "diet": "vegetarian",
+    "meal_type": "dessert",
+    "nutrition": {
+      "calories": 350,
+      "protein": 7,
+      "carbs": 50,
+      "fat": 15
+    },
+    "link": "https://www.kawalingpinoy.com/cassava-cake/"
+  },
+  {
+    "id": 72,
+    "picture": "ginataang-bilo-bilo.jpg",
+    "name": "Ginataang Bilo-Bilo (Sticky Rice Balls in Coconut Milk)",
+    "description": "Sweet coconut soup with sticky rice balls, root crops, and saba bananas",
+    "ingredients": ["2 cups glutinous rice flour", "1 cup water", "4 cups coconut milk", "½ cup sugar", "2 saba bananas (sliced)", "1 cup sweet potato (cubed)", "1 cup jackfruit strips", "½ cup sago pearls (cooked)", "1 tsp salt"],
+    "instructions": [
+      "Mix glutinous rice flour with water to form dough.",
+      "Shape dough into small balls (bilo-bilo).",
+      "In a pot, bring coconut milk to boil.",
+      "Add sugar and salt, stirring until dissolved.",
+      "Add sweet potato cubes and cook for 10 minutes.",
+      "Add bilo-bilo and cook until they float.",
+      "Add sliced bananas and jackfruit strips.",
+      "Simmer for 5 more minutes.",
+      "Add cooked sago pearls.",
+      "Serve warm in bowls."
+    ],
+    "time": 40,
+    "difficulty": "medium",
+    "diet": "vegetarian",
+    "meal_type": "dessert",
+    "nutrition": {
+      "calories": 380,
+      "protein": 6,
+      "carbs": 60,
+      "fat": 18
+    },
+    "link": "https://panlasangpinoy.com/ginataang-bilo-bilo/"
+  },
+  {
+    "id": 73,
+    "picture": "leche-flan-cake.jpg",
+    "name": "Leche Flan Cake",
+    "description": "Combination of moist cake and creamy leche flan in one dessert",
+    "ingredients": ["1 box yellow cake mix", "10 egg yolks", "1 can condensed milk", "1 can evaporated milk", "1 tsp vanilla", "¾ cup sugar", "¼ cup water"],
+    "instructions": [
+      "Make caramel: Melt sugar with water in cake pan until golden.",
+      "Swirl to coat bottom and set aside.",
+      "Prepare leche flan mixture: Beat egg yolks, add condensed milk, evaporated milk, and vanilla.",
+      "Strain mixture and pour over caramel.",
+      "Prepare cake mix according to package directions.",
+      "Carefully pour cake batter over leche flan layer.",
+      "Cover pan with foil and steam for 1 hour or bake at 350°F for 45 minutes.",
+      "Cool completely before inverting onto serving plate.",
+      "Chill before serving."
+    ],
+    "time": 90,
+    "difficulty": "hard",
+    "diet": "vegetarian",
+    "meal_type": "dessert",
+    "nutrition": {
+      "calories": 420,
+      "protein": 10,
+      "carbs": 55,
+      "fat": 18
+    },
+    "link": "https://www.foxyfolksy.com/leche-flan-cake-recipe/"
+  },
+  {
+    "id": 74,
+    "picture": "banana-que.jpg",
+    "name": "Banana Que (Caramelized Bananas)",
+    "description": "Skewered saba bananas coated with caramelized brown sugar",
+    "ingredients": ["12 saba bananas", "1 cup brown sugar", "½ cup water", "2 cups cooking oil", "bamboo skewers"],
+    "instructions": [
+      "Peel bananas and skewer 3-4 bananas per stick.",
+      "In a pan, heat oil over medium heat.",
+      "Fry bananas until lightly browned. Remove and drain.",
+      "In another pan, melt brown sugar with water to make caramel.",
+      "Dip fried bananas in caramel syrup, coating evenly.",
+      "Allow excess caramel to drip off.",
+      "Place on greased tray to cool and harden.",
+      "Serve warm as street-style dessert."
+    ],
+    "time": 25,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "meal_type": "dessert",
+    "nutrition": {
+      "calories": 280,
+      "protein": 2,
+      "carbs": 55,
+      "fat": 8
+    },
+    "link": "https://panlasangpinoy.com/banana-que-recipe/"
+  },
+  {
+    "id": 75,
+    "picture": "macapuno-cake.jpg",
+    "name": "Macapuno Cake",
+    "description": "Light and fluffy cake with sweet macapuno strings and creamy frosting",
+    "ingredients": ["2 cups cake flour", "1½ cups sugar", "½ cup butter", "3 eggs", "1 cup milk", "2 tsp baking powder", "1 jar macapuno strings", "2 cups whipped cream", "½ cup condensed milk"],
+    "instructions": [
+      "Preheat oven to 350°F.",
+      "Cream butter and sugar until light and fluffy.",
+      "Add eggs one at a time, beating well after each.",
+      "Sift together flour and baking powder.",
+      "Alternately add flour mixture and milk to butter mixture.",
+      "Pour batter into greased cake pans.",
+      "Bake for 25-30 minutes or until toothpick comes out clean.",
+      "Cool completely before frosting.",
+      "Mix whipped cream with condensed milk for frosting.",
+      "Frost cake and top with macapuno strings."
+    ],
+    "time": 60,
+    "difficulty": "medium",
+    "diet": "vegetarian",
+    "meal_type": "dessert",
+    "nutrition": {
+      "calories": 380,
+      "protein": 6,
+      "carbs": 55,
+      "fat": 16
+    },
+    "link": "https://www.kawalingpinoy.com/macapuno-cake/"
+  },
+  {
+    "id": 76,
+    "picture": "suman.jpg",
+    "name": "Suman (Sticky Rice Rolls)",
+    "description": "Traditional sticky rice rolls wrapped in banana leaves, served with latik",
+    "ingredients": ["4 cups glutinous rice", "2 cups coconut milk", "1 tsp salt", "banana leaves", "½ cup brown sugar", "½ cup latik (coconut curds)"],
+    "instructions": [
+      "Wash glutinous rice and soak in water for 30 minutes.",
+      "Drain rice and mix with coconut milk and salt.",
+      "Prepare banana leaves by wiping clean and passing over flame to soften.",
+      "Place 2-3 tablespoons of rice mixture on banana leaf.",
+      "Roll tightly and fold ends securely.",
+      "Arrange in steamer and steam for 45-60 minutes.",
+      "Serve warm with brown sugar and latik on the side.",
+      "To eat, unwrap and dip in sugar with latik."
+    ],
+    "time": 90,
+    "difficulty": "medium",
+    "diet": "vegetarian",
+    "meal_type": "dessert",
+    "nutrition": {
+      "calories": 290,
+      "protein": 5,
+      "carbs": 50,
+      "fat": 10
+    },
+    "link": "https://panlasangpinoy.com/suman-sa-lihiya/"
+  }
+]

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingredients - Ch3f's Pr3cision</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <img src="{{ url_for('static', filename='assets/loginlogo.png') }}" width="150" height="40">
+                </div>
+                <div class="nav-links">
+                    <a href="{{ url_for('index') }}">Home</a>
+                    <a href="{{ url_for('ingredients') }}" class="active">Ingredients</a>
+                    <a href="{{ url_for('recipes') }}">Recipes</a>
+                    <a href="{{ url_for('meal_planner') }}">Meal Planner</a>
+                    <a href="{{ url_for('nutrition') }}">Nutrition</a>
+                </div>
+                <div class="user-menu">
+                    <span id="usernameDisplay">Welcome, {{ session.user }}!</span>
+                    <a href="{{ url_for('logout') }}" class="btn btn-secondary">Logout</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Add Your Ingredients</h1>
+            <p>Enter the ingredients you have at home. Our AI will analyze them to suggest perfect recipes tailored just for you.</p>
+        </div>
+    </section>
+
+    <section class="ingredients-section">
+        <div class="container">
+            <div class="search-filters">
+                <form class="ingredient-form" id="ingredientForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="ingredientName">Ingredient</label>
+                            <input type="text" id="ingredientName" class="form-control" placeholder="e.g., Chicken" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="quantity">Quantity</label>
+                            <input type="number" id="quantity" class="form-control" placeholder="e.g., 500" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="unit">Unit</label>
+                            <select id="unit" class="form-control">
+                                <option value="g">grams</option>
+                                <option value="kg">kg</option>
+                                <option value="ml">ml</option>
+                                <option value="l">liters</option>
+                                <option value="pieces">pieces</option>
+                                <option value="cups">cups</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="category">Category</label>
+                            <select id="category" class="form-control">
+                                <option value="fresh">Fresh</option>
+                                <option value="pantry">Pantry</option>
+                                <option value="dairy">Dairy</option>
+                                <option value="meat">Meat</option>
+                                <option value="vegetables">Vegetables</option>
+                                <option value="fruits">Fruits</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-plus"></i> Add Ingredient
+                    </button>
+                </form>
+
+                <div style="margin-top: 2rem;">
+                    <h3>Quick Add Suggestions:</h3>
+                    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem;">
+                        <button class="quick-add-btn btn btn-secondary" data-ingredient="Chicken Breast">Chicken Breast</button>
+                        <button class="quick-add-btn btn btn-secondary" data-ingredient="Tomatoes">Tomatoes</button>
+                        <button class="quick-add-btn btn btn-secondary" data-ingredient="Onion">Onion</button>
+                        <button class="quick-add-btn btn btn-secondary" data-ingredient="Garlic">Garlic</button>
+                        <button class="quick-add-btn btn btn-secondary" data-ingredient="Rice">Rice</button>
+                        <button class="quick-add-btn btn btn-secondary" data-ingredient="Pasta">Pasta</button>
+                        <button class="quick-add-btn btn btn-secondary" data-ingredient="Eggs">Eggs</button>
+                        <button class="quick-add-btn btn btn-secondary" data-ingredient="Milk">Milk</button>
+                        <button class="quick-add-btn btn btn-secondary" data-ingredient="Cheese">Cheese</button>
+                        <button class="quick-add-btn btn btn-secondary" data-ingredient="Bell Peppers">Bell Peppers</button>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top: 3rem;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                    <h2 style="margin: 0;">Your Ingredients</h2>
+                    <div style="display: flex; gap: 1rem; align-items: center;">
+                        <button id="selectAllBtn" class="btn btn-outline">
+                            <i class="fas fa-check-square"></i> Select All
+                        </button>
+                        <button id="searchSelectedBtn" class="btn btn-primary" style="display: none;">
+                            <i class="fas fa-search"></i> Search Recipes with Selected Ingredients
+                        </button>
+                    </div>
+                </div>
+                <div id="ingredientsGrid" class="ingredients-grid">
+                    <!-- Ingredients will be dynamically added here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Ch3f's Pr3cision</h3>
+                    <p>Computer-Engineered Intelligent Recipe Recommendation and Meal Planning.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Features</h3>
+                    <ul class="footer-links">
+                        <li><a href="{{ url_for('ingredients') }}">Ingredients</a></li>
+                        <li><a href="{{ url_for('recipes') }}">Recipes</a></li>
+                        <li><a href="{{ url_for('meal_planner') }}">Meal Planner</a></li>
+                        <li><a href="{{ url_for('nutrition') }}">Nutrition</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="{{ url_for('about') }}">About us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="{{ url_for('privacy_policy') }}">Privacy</a></li>
+                        <li><a href="{{ url_for('terms') }}">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ch3f's Pr3cision. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/ingredients.js') }}"></script>
+</body>
+</html>

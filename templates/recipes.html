@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes - Ch3f's Pr3cision</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .meal-category {
+            margin-bottom: 3rem;
+        }
+        
+        .meal-category h3 {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--secondary);
+        }
+        
+        .category-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        
+        .recommendation-subtitle {
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+        
+        .empty-category {
+            text-align: center;
+            padding: 2rem;
+            color: var(--gray);
+            font-style: italic;
+            background: var(--light);
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+
+        .recipe-image-container {
+            position: relative;
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .recipe-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .recipe-card:hover .recipe-image {
+            transform: scale(1.05);
+        }
+
+        .recommendation-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+
+        .recommendation-card {
+            border: 2px solid #e3f2fd;
+            background: #f8fdff;
+        }
+
+        .ingredient-match-info {
+            margin: 1rem 0;
+            padding: 0.75rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+
+        .match-stats {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .match-stat {
+            font-size: 0.85rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <img src="{{ url_for('static', filename='assets/loginlogo.png') }}" width="150" height="40">
+                </div>
+                <div class="nav-links">
+                    <a href="{{ url_for('index') }}">Home</a>
+                    <a href="{{ url_for('ingredients') }}">Ingredients</a>
+                    <a href="{{ url_for('recipes') }}" class="active">Recipes</a>
+                    <a href="{{ url_for('meal_planner') }}">Meal Planner</a>
+                    <a href="{{ url_for('nutrition') }}">Nutrition</a>
+                </div>
+                <div class="user-menu">
+                    <span id="usernameDisplay">Welcome, {{ session.user }}!</span>
+                    <a href="{{ url_for('logout') }}" class="btn btn-secondary">Logout</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Recipes</h1>
+            <p>Discover delicious recipes organized by meal type. Find perfect options for breakfast, lunch, dinner, and dessert.</p>
+        </div>
+    </section>
+
+    <section style="padding: 60px 0;">
+        <div class="container">
+            <div class="search-filters">
+                <div class="search-box">
+                    <input type="text" id="recipeSearch" class="form-control" placeholder="Search recipes...">
+                    <button class="btn btn-primary" id="searchBtn">
+                        <i class="fas fa-search"></i> Search
+                    </button>
+                </div>
+                <div class="filters">
+                    <div class="filter-group">
+                        <label for="dietFilter">Diet Type</label>
+                        <select id="dietFilter" class="form-control">
+                            <option value="all">All Diets</option>
+                            <option value="vegetarian">Vegetarian</option>
+                            <option value="vegan">Vegan</option>
+                            <option value="high-protein">High Protein</option>
+                            <option value="balanced">Balanced</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="timeFilter">Max Time (min)</label>
+                        <select id="timeFilter" class="form-control">
+                            <option value="all">Any Time</option>
+                            <option value="15">15 min</option>
+                            <option value="30">30 min</option>
+                            <option value="45">45 min</option>
+                            <option value="60">60 min</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="mealTypeFilter">Meal Type</label>
+                        <select id="mealTypeFilter" class="form-control">
+                            <option value="all">All Meals</option>
+                            <option value="breakfast">Breakfast</option>
+                            <option value="lunch">Lunch</option>
+                            <option value="dinner">Dinner</option>
+                            <option value="dessert">Dessert</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ingredient-Based Recommendations -->
+            <div class="meal-category" id="ingredientRecommendations" style="display: none;">
+                <div class="category-header">
+                    <h3><i class="fas fa-lightbulb"></i> Recommended Based on Your Ingredients</h3>
+                    <span class="recommendation-subtitle">Recipes that match ingredients you have</span>
+                </div>
+                <div id="recommendedRecipes" class="recipes-grid">
+                    <!-- Recommended recipes will be loaded here -->
+                </div>
+            </div>
+
+            <!-- Breakfast Recipes -->
+            <div class="meal-category">
+                <div class="category-header">
+                    <h3><i class="fas fa-sun"></i> Breakfast Recipes</h3>
+                </div>
+                <div id="breakfastRecipes" class="recipes-grid">
+                    <!-- Breakfast recipes will be loaded here -->
+                </div>
+            </div>
+
+            <!-- Lunch Recipes -->
+            <div class="meal-category">
+                <div class="category-header">
+                    <h3><i class="fas fa-utensils"></i> Lunch Recipes</h3>
+                </div>
+                <div id="lunchRecipes" class="recipes-grid">
+                    <!-- Lunch recipes will be loaded here -->
+                </div>
+            </div>
+
+            <!-- Dinner Recipes -->
+            <div class="meal-category">
+                <div class="category-header">
+                    <h3><i class="fas fa-moon"></i> Dinner Recipes</h3>
+                </div>
+                <div id="dinnerRecipes" class="recipes-grid">
+                    <!-- Dinner recipes will be loaded here -->
+                </div>
+            </div>
+
+            <!-- Dessert Recipes -->
+            <div class="meal-category">
+                <div class="category-header">
+                    <h3><i class="fas fa-ice-cream"></i> Dessert Recipes</h3>
+                </div>
+                <div id="dessertRecipes" class="recipes-grid">
+                    <!-- Dessert recipes will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Ch3f's Pr3cision</h3>
+                    <p>Computer-Engineered Intelligent Recipe Recommendation and Meal Planning.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Features</h3>
+                    <ul class="footer-links">
+                        <li><a href="{{ url_for('ingredients') }}">Ingredients</a></li>
+                        <li><a href="{{ url_for('recipes') }}">Recipes</a></li>
+                        <li><a href="{{ url_for('meal_planner') }}">Meal Planner</a></li>
+                        <li><a href="{{ url_for('nutrition') }}">Nutrition</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="{{ url_for('about') }}">About us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="{{ url_for('privacy_policy') }}">Privacy</a></li>
+                        <li><a href="{{ url_for('terms') }}">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ch3f's Pr3cision. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/recipes.js') }}"></script>
+</body>
+</html>

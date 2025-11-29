@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Ch3f's Pr3cision</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .policy-section {
+            padding: 120px 0 60px;
+        }
+
+        .policy-content {
+            background: white;
+            padding: 3rem;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            margin-bottom: 2rem;
+        }
+
+        .policy-content h1 {
+            color: var(--primary);
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .policy-content h2 {
+            color: var(--primary);
+            margin: 2rem 0 1rem;
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 0.5rem;
+        }
+
+        .policy-content h3 {
+            color: var(--dark);
+            margin: 1.5rem 0 0.5rem;
+        }
+
+        .policy-content p {
+            margin-bottom: 1rem;
+            line-height: 1.7;
+            color: #555;
+        }
+
+        .policy-content ul {
+            margin: 1rem 0;
+            padding-left: 2rem;
+        }
+
+        .policy-content li {
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .last-updated {
+            background: var(--light);
+            padding: 1rem;
+            border-radius: 5px;
+            margin: 2rem 0;
+            border-left: 4px solid var(--secondary);
+        }
+
+        .contact-info {
+            background: #e8f4f8;
+            padding: 1.5rem;
+            border-radius: 5px;
+            margin: 2rem 0;
+        }
+
+        @media (max-width: 768px) {
+            .policy-content {
+                padding: 2rem 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <img src="{{ url_for('static', filename='assets/loginlogo.png') }}" width="150" height="40">
+                </div>
+                <div class="nav-links">
+                    <a href="{{ url_for('index') }}">Home</a>
+                    <a href="{{ url_for('ingredients') }}">Ingredients</a>
+                    <a href="{{ url_for('recipes') }}">Recipes</a>
+                    <a href="{{ url_for('meal_planner') }}">Meal Planner</a>
+                    <a href="{{ url_for('nutrition') }}">Nutrition</a>
+                </div>
+                <div class="auth-buttons">
+                    {% if session.user %}
+                    <span style="margin-right: 1rem;">Welcome, {{ session.user }}!</span>
+                    <a href="{{ url_for('logout') }}" class="btn btn-secondary">Logout</a>
+                    {% else %}
+                    <a href="{{ url_for('login') }}" class="btn btn-secondary">Sign In</a>
+                    <a href="{{ url_for('login') }}" class="btn btn-primary">Get Started</a>
+                    {% endif %}
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="policy-section">
+        <div class="container">
+            <div class="policy-content">
+                <h1>Privacy Policy</h1>
+                
+                <div class="last-updated">
+                    <p><strong>Last Updated:</strong> November 29, 2025</p>
+                </div>
+
+                <p>At Ch3f's Pr3cision, we are committed to protecting your privacy and ensuring the security of your personal information.</p>
+
+                <h2>1. Information We Collect</h2>
+                
+                <h3>Personal Information</h3>
+                <p>When you create an account, we collect:</p>
+                <ul>
+                    <li>Username</li>
+                    <li>Dietary preferences and restrictions</li>
+                    <li>Nutrition goals and targets</li>
+                </ul>
+
+                <h3>Usage Data</h3>
+                <p>We automatically collect information about how you interact with our platform:</p>
+                <ul>
+                    <li>Recipe searches and preferences</li>
+                    <li>Ingredients added to your virtual pantry</li>
+                    <li>Meal plans created</li>
+                    <li>Nutrition tracking data</li>
+                </ul>
+
+                <h2>2. How We Use Your Information</h2>
+                <p>We use your information to:</p>
+                <ul>
+                    <li>Provide personalized recipe recommendations</li>
+                    <li>Generate custom meal plans based on your preferences</li>
+                    <li>Track your nutrition and health goals</li>
+                    <li>Improve our services and user experience</li>
+                </ul>
+
+                <h2>3. Data Security</h2>
+                <p>We implement security measures to protect your data:</p>
+                <ul>
+                    <li>Secure server infrastructure</li>
+                    <li>Access controls and authentication</li>
+                </ul>
+
+                <h2>4. Your Rights and Choices</h2>
+                <p>You have the right to:</p>
+                <ul>
+                    <li>Access and download your personal data</li>
+                    <li>Correct inaccurate information</li>
+                    <li>Delete your account and associated data</li>
+                </ul>
+
+                <h2>5. Contact Us</h2>
+                <div class="contact-info">
+                    <p>If you have any questions about this Privacy Policy, please contact us:</p>
+                    <p><strong>Email:</strong> ch3fspr3cision@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Ch3f's Pr3cision</h3>
+                    <p>Computer-Engineered Intelligent Recipe Recommendation and Meal Planning.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Features</h3>
+                    <ul class="footer-links">
+                        <li><a href="{{ url_for('ingredients') }}">Ingredients</a></li>
+                        <li><a href="{{ url_for('recipes') }}">Recipes</a></li>
+                        <li><a href="{{ url_for('meal_planner') }}">Meal Planner</a></li>
+                        <li><a href="{{ url_for('nutrition') }}">Nutrition</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="{{ url_for('about') }}">About us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="{{ url_for('privacy_policy') }}">Privacy</a></li>
+                        <li><a href="{{ url_for('terms') }}">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ch3f's Pr3cision. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

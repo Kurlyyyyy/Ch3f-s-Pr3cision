@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Ch3f's Pr3cision</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .about-section {
+            padding: 120px 0 60px;
+        }
+
+        .about-content {
+            background: white;
+            padding: 3rem;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            margin-bottom: 3rem;
+        }
+
+        .about-content h1 {
+            color: var(--primary);
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .about-content h2 {
+            color: var(--primary);
+            margin: 2rem 0 1rem;
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 0.5rem;
+        }
+
+        .mission-statement {
+            background: var(--light);
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            text-align: center;
+            border-left: 4px solid var(--secondary);
+        }
+
+        .team-section {
+            margin: 3rem 0;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .team-member {
+            text-align: center;
+            padding: 2rem;
+            background: var(--light);
+            border-radius: 8px;
+            transition: transform 0.3s;
+            border: 1px solid var(--border);
+        }
+
+        .team-member:hover {
+            transform: translateY(-5px);
+        }
+
+        .member-photo {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin: 0 auto 1rem;
+            background: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .member-photo.img-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .member-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .member-role {
+            color: var(--secondary);
+            font-weight: 500;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .member-bio {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .value-card {
+            text-align: center;
+            padding: 1.5rem 1rem;
+        }
+
+        .value-icon {
+            font-size: 2rem;
+            color: var(--secondary);
+            margin-bottom: 1rem;
+        }
+
+        .value-card h4 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .about-content {
+                padding: 2rem 1.5rem;
+            }
+            
+            .team-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <img src="{{ url_for('static', filename='assets/loginlogo.png') }}" width="150" height="40">
+                </div>
+                <div class="nav-links">
+                    <a href="{{ url_for('index') }}">Home</a>
+                    <a href="{{ url_for('ingredients') }}">Ingredients</a>
+                    <a href="{{ url_for('recipes') }}">Recipes</a>
+                    <a href="{{ url_for('meal_planner') }}">Meal Planner</a>
+                    <a href="{{ url_for('nutrition') }}">Nutrition</a>
+                </div>
+                <div class="auth-buttons">
+                    {% if session.user %}
+                    <span style="margin-right: 1rem;">Welcome, {{ session.user }}!</span>
+                    <a href="{{ url_for('logout') }}" class="btn btn-secondary">Logout</a>
+                    {% else %}
+                    <a href="{{ url_for('login') }}" class="btn btn-secondary">Sign In</a>
+                    <a href="{{ url_for('login') }}" class="btn btn-primary">Get Started</a>
+                    {% endif %}
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h1>About Ch3f's Pr3cision</h1>
+                
+                <div class="mission-statement">
+                    <h3>Our Mission</h3>
+                    <p>To revolutionize home cooking by combining technology with nutritional science, making healthy, delicious meals accessible to everyone.</p>
+                </div>
+
+                <h2>Our Story</h2>
+                <p>Ch3f's Pr3cision was born from a simple observation: people want to eat healthier and cook more at home, but they face challenges with food waste, lack of cooking knowledge, and difficulty tracking nutrition.</p>
+                
+                <p>Our platform uses smart algorithms to analyze your available ingredients, dietary preferences, and nutritional goals to create personalized meal plans that reduce waste and promote healthy eating.</p>
+
+                <h2>Our Values</h2>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4>Health First</h4>
+                        <p>We prioritize nutritional accuracy and healthy eating habits.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Sustainability</h4>
+                        <p>We're committed to reducing food waste.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h4>Education</h4>
+                        <p>We believe everyone can become a better cook.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h4>Innovation</h4>
+                        <p>We continuously improve to provide better experiences.</p>
+                    </div>
+                </div>
+
+                <div class="team-section">
+                    <h2>Our Team</h2>
+                    <p>We bring together expertise from culinary arts, nutrition science, and technology.</p>
+                    
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <div><img src="{{ url_for('static', filename='assets/Gherwin.jpg') }}" width="135" height="120" opacity="0.5">
+                            </div>
+                            <div class="member-name">Salinas, Gherwin Dave G.</div>
+                            <div class="member-role">Head Chef & Founder</div>
+                            <div class="member-bio">Former executive chef with 15 years of experience in fine dining and nutritional cooking.</div>
+                        </div>
+                        
+                        <div class="team-member">
+                            <div><img src="{{ url_for('static', filename='assets/Janine.jpg') }}" width="120" height="120" opacity="0.5">
+                            </div>
+                            <div class="member-name">Banog, Janine D.</div>
+                            <div class="member-role">Head of Nutrition</div>
+                            <div class="member-bio">Registered Dietitian specializing in personalized nutrition and dietary planning.</div>
+                        </div>
+                    </div>
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <div><img src="{{ url_for('static', filename='assets/Kurl.png') }}" width="120" height="120" opacity="0.5">
+                            </div>
+                            <div class="member-name">Landicho, Francis Kurl B.</div>
+                            <div class="member-role">Chief Technology Officer</div>
+                            <div class="member-bio">Tech lead at FoodTech Inc., specializing in developing innovative kitchen automation systems and recipe management platforms.</div>
+                        </div>
+
+                        <div class="team-member">
+                            <div><img src="{{ url_for('static', filename='assets/Steven.jpg') }}" width="120" height="120" opacity="0.5">
+                            </div>
+                            <div class="member-name">Macatangay, Steven M.</div>
+                            <div class="member-role">Operations Manager</div>
+                            <div class="member-bio">Expert in sustainable food systems and supply chain management with 10+ years in the industry.</div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <h2>Join Our Mission</h2>
+                <p>We're always looking for passionate individuals who want to make a difference in how people eat and cook.</p>
+                
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="{{ url_for('login') }}" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Ch3f's Pr3cision</h3>
+                    <p>Computer-Engineered Intelligent Recipe Recommendation and Meal Planning.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Features</h3>
+                    <ul class="footer-links">
+                        <li><a href="{{ url_for('ingredients') }}">Ingredients</a></li>
+                        <li><a href="{{ url_for('recipes') }}">Recipes</a></li>
+                        <li><a href="{{ url_for('meal_planner') }}">Meal Planner</a></li>
+                        <li><a href="{{ url_for('nutrition') }}">Nutrition</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="{{ url_for('about') }}">About us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="{{ url_for('privacy_policy') }}">Privacy</a></li>
+                        <li><a href="{{ url_for('terms') }}">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ch3f's Pr3cision. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,119 @@
+{
+  "Kurl": {
+    "password": "123456",
+    "created_at": "2025-11-29T07:32:04.482529",
+    "last_login": "2025-11-29T20:34:49.446698",
+    "ingredients": [],
+    "nutrition_log": [],
+    "meal_plans": {
+      "2025-11-24": {
+        "4_lunch": {
+          "name": "Greek Salad",
+          "calories": 180,
+          "protein": 6,
+          "carbs": 12,
+          "fat": 14,
+          "mealTime": "Lunch",
+          "planned": true,
+          "weekKey": "2025-11-24",
+          "dayIndex": 4,
+          "mealType": "lunch",
+          "recipeId": 5,
+          "timestamp": "2025-11-29T05:52:02.728Z"
+        }
+      },
+      "2025-11-23": {
+        "0_breakfast": {
+          "name": "Hotsilog (Hotdog, Garlic Rice, Egg)",
+          "calories": 550,
+          "protein": 15,
+          "carbs": 50,
+          "fat": 30,
+          "mealTime": "Breakfast",
+          "planned": true,
+          "weekKey": "2025-11-23",
+          "dayIndex": 0,
+          "mealType": "breakfast",
+          "recipeId": 16,
+          "isSelected": true,
+          "timestamp": "2025-11-29T14:52:52.260Z"
+        }
+      }
+    },
+    "diet_preferences": {
+      "diet_type": "balanced",
+      "calorie_target": 2000,
+      "allergies": []
+    }
+  },
+  "Kurlyyy": {
+    "password": "123456",
+    "created_at": "2025-11-29T14:36:31.127539",
+    "last_login": "2025-11-29T14:36:31.128549",
+    "ingredients": [
+      {
+        "name": "egg",
+        "quantity": 5,
+        "unit": "g",
+        "category": "fresh",
+        "id": 1,
+        "added": "2025-11-29T19:03:40.870087"
+      }
+    ],
+    "nutrition_log": [],
+    "meal_plans": {
+      "2025-11-24": {
+        "5_breakfast": {
+          "name": "Pancit Guisado (Stir-fried Noodles)",
+          "calories": 480,
+          "protein": 20,
+          "carbs": 60,
+          "fat": 18,
+          "mealTime": "Breakfast",
+          "planned": true,
+          "weekKey": "2025-11-24",
+          "dayIndex": 5,
+          "mealType": "breakfast",
+          "recipeId": 11,
+          "timestamp": "2025-11-29T09:00:35.500Z"
+        },
+        "0_breakfast": {
+          "name": "Champorado (Chocolate Rice Porridge)",
+          "calories": 350,
+          "protein": 6,
+          "carbs": 70,
+          "fat": 5,
+          "mealTime": "Breakfast",
+          "planned": true,
+          "weekKey": "2025-11-24",
+          "dayIndex": 0,
+          "mealType": "breakfast",
+          "recipeId": 2,
+          "timestamp": "2025-11-29T09:00:32.337Z"
+        }
+      },
+      "2025-11-23": {
+        "5_breakfast": {
+          "name": "Sinangag (Filipino Garlic Fried Rice)",
+          "calories": 380,
+          "protein": 8,
+          "carbs": 48,
+          "fat": 18,
+          "mealTime": "Breakfast",
+          "planned": true,
+          "weekKey": "2025-11-23",
+          "dayIndex": 5,
+          "mealType": "breakfast",
+          "recipeId": 1,
+          "isSelected": true,
+          "timestamp": "2025-11-29T11:03:53.049Z"
+        }
+      }
+    },
+    "diet_preferences": {
+      "diet_type": "balanced",
+      "calorie_target": 2000,
+      "allergies": []
+    }
+  }
+}

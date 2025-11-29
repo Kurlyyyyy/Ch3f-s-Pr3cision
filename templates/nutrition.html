@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition - Ch3f's Pr3cision</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/nutrition.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .progress-circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            position: relative;
+            background: conic-gradient(#f0f0f0 0% 100%);
+            transition: background 0.3s ease;
+        }
+
+        .progress-circle::before {
+            content: '';
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background: white;
+            border-radius: 50%;
+            top: 10px;
+            left: 10px;
+        }
+
+        .progress-circle .value {
+            position: relative;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #666;
+            z-index: 1;
+            transition: all 0.3s ease;
+        }
+
+        .progress-circle .label {
+            position: relative;
+            font-size: 0.8rem;
+            color: var(--gray);
+            z-index: 1;
+        }
+
+        .summary-card.active .progress-circle .value {
+            color: #e74c3c;
+        }
+        
+        .nutrition-info {
+            font-size: 0.7rem;
+            color: #666;
+            margin-top: 0.25rem;
+            line-height: 1.2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <img src="{{ url_for('static', filename='assets/loginlogo.png') }}" width="150" height="40">
+                </div>
+                <div class="nav-links">
+                    <a href="{{ url_for('index') }}">Home</a>
+                    <a href="{{ url_for('ingredients') }}">Ingredients</a>
+                    <a href="{{ url_for('recipes') }}">Recipes</a>
+                    <a href="{{ url_for('meal_planner') }}">Meal Planner</a>
+                    <a href="{{ url_for('nutrition') }}" class="active">Nutrition</a>
+                </div>
+                <div class="user-menu">
+                    <span id="usernameDisplay">Welcome, {{ session.user }}!</span>
+                    <a href="{{ url_for('logout') }}" class="btn btn-secondary">Logout</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Nutrition Tracker</h1>
+            <p>Track your daily nutrition intake and monitor your progress towards your health goals.</p>
+            <div style="margin-top: 1rem;">
+                <span id="userStats" style="color: #666; font-size: 0.9rem;">0 meals today • 0 calories • 0 meals this week</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="nutrition-section">
+        <div class="container">
+            <!-- Today's Overview -->
+            <div class="nutrition-overview">
+                <div class="daily-summary">
+                    <h3>Today's Nutrition</h3>
+                    <div class="summary-cards">
+                        <div class="summary-card calories">
+                            <div class="progress-circle" style="background: conic-gradient(#f0f0f0 0% 100%);">
+                                <span class="value">0</span>
+                                <span class="label"> / 2000 cal</span>
+                            </div>
+                            <div style="margin-top: 0.5rem; font-weight: 600;">Calories</div>
+                        </div>
+                        <div class="summary-card protein">
+                            <div class="progress-circle" style="background: conic-gradient(#f0f0f0 0% 100%);">
+                                <span class="value">0g</span>
+                                <span class="label"> / 75g</span>
+                            </div>
+                            <div style="margin-top: 0.5rem; font-weight: 600;">Protein</div>
+                        </div>
+                        <div class="summary-card carbs">
+                            <div class="progress-circle" style="background: conic-gradient(#f0f0f0 0% 100%);">
+                                <span class="value">0g</span>
+                                <span class="label"> / 250g</span>
+                            </div>
+                            <div style="margin-top: 0.5rem; font-weight: 600;">Carbs</div>
+                        </div>
+                        <div class="summary-card fat">
+                            <div class="progress-circle" style="background: conic-gradient(#f0f0f0 0% 100%);">
+                                <span class="value">0g</span>
+                                <span class="label"> / 44g</span>
+                            </div>
+                            <div style="margin-top: 0.5rem; font-weight: 600;">Fat</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="macronutrient-chart">
+                    <h3>Macronutrient Distribution</h3>
+                    <div class="chart-container">
+                        <canvas id="macroChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Weekly Progress -->
+            <div class="weekly-progress">
+                <h3>Weekly Nutrition Progress</h3>
+                <div class="progress-bars">
+                    <div class="progress-item">
+                        <span>Mon</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%; background: #f0f0f0;"></div>
+                        </div>
+                        <span>0/2000 cal</span>
+                    </div>
+                    <div class="progress-item">
+                        <span>Tue</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%; background: #f0f0f0;"></div>
+                        </div>
+                        <span>0/2000 cal</span>
+                    </div>
+                    <div class="progress-item">
+                        <span>Wed</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%; background: #f0f0f0;"></div>
+                        </div>
+                        <span>0/2000 cal</span>
+                    </div>
+                    <div class="progress-item">
+                        <span>Thu</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%; background: #f0f0f0;"></div>
+                        </div>
+                        <span>0/2000 cal</span>
+                    </div>
+                    <div class="progress-item">
+                        <span>Fri</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%; background: #f0f0f0;"></div>
+                        </div>
+                        <span>0/2000 cal</span>
+                    </div>
+                    <div class="progress-item">
+                        <span>Sat</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%; background: #f0f0f0;"></div>
+                        </div>
+                        <span>0/2000 cal</span>
+                    </div>
+                    <div class="progress-item">
+                        <span>Sun</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%; background: #f0f0f0;"></div>
+                        </div>
+                        <span>0/2000 cal</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Ch3f's Pr3cision</h3>
+                    <p>Computer-Engineered Intelligent Recipe Recommendation and Meal Planning.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Features</h3>
+                    <ul class="footer-links">
+                        <li><a href="{{ url_for('ingredients') }}">Ingredients</a></li>
+                        <li><a href="{{ url_for('recipes') }}">Recipes</a></li>
+                        <li><a href="{{ url_for('meal_planner') }}">Meal Planner</a></li>
+                        <li><a href="{{ url_for('nutrition') }}">Nutrition</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="{{ url_for('about') }}">About us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="{{ url_for('privacy_policy') }}">Privacy</a></li>
+                        <li><a href="{{ url_for('terms') }}">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ch3f's Pr3cision. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/nutrition.js') }}"></script>
+</body>
+</html>

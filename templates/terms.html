@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Ch3f's Pr3cision</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .terms-section {
+            padding: 120px 0 60px;
+        }
+
+        .terms-content {
+            background: white;
+            padding: 3rem;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            margin-bottom: 2rem;
+        }
+
+        .terms-content h1 {
+            color: var(--primary);
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .terms-content h2 {
+            color: var(--primary);
+            margin: 2rem 0 1rem;
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 0.5rem;
+        }
+
+        .terms-content h3 {
+            color: var(--dark);
+            margin: 1.5rem 0 0.5rem;
+        }
+
+        .terms-content p {
+            margin-bottom: 1rem;
+            line-height: 1.7;
+            color: #555;
+        }
+
+        .terms-content ul {
+            margin: 1rem 0;
+            padding-left: 2rem;
+        }
+
+        .terms-content li {
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .last-updated {
+            background: var(--light);
+            padding: 1rem;
+            border-radius: 5px;
+            margin: 2rem 0;
+            border-left: 4px solid var(--secondary);
+        }
+
+        .important-notice {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 1.5rem;
+            border-radius: 5px;
+            margin: 2rem 0;
+        }
+
+        @media (max-width: 768px) {
+            .terms-content {
+                padding: 2rem 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <img src="{{ url_for('static', filename='assets/loginlogo.png') }}" width="150" height="40">
+                </div>
+                <div class="nav-links">
+                    <a href="{{ url_for('index') }}">Home</a>
+                    <a href="{{ url_for('ingredients') }}">Ingredients</a>
+                    <a href="{{ url_for('recipes') }}">Recipes</a>
+                    <a href="{{ url_for('meal_planner') }}">Meal Planner</a>
+                    <a href="{{ url_for('nutrition') }}">Nutrition</a>
+                </div>
+                <div class="auth-buttons">
+                    {% if session.user %}
+                    <span style="margin-right: 1rem;">Welcome, {{ session.user }}!</span>
+                    <a href="{{ url_for('logout') }}" class="btn btn-secondary">Logout</a>
+                    {% else %}
+                    <a href="{{ url_for('login') }}" class="btn btn-secondary">Sign In</a>
+                    <a href="{{ url_for('login') }}" class="btn btn-primary">Get Started</a>
+                    {% endif %}
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="terms-section">
+        <div class="container">
+            <div class="terms-content">
+                <h1>Terms of Service</h1>
+                
+                <div class="last-updated">
+                    <p><strong>Last Updated:</strong> November 29, 2025</p>
+                </div>
+
+                <div class="important-notice">
+                    <p><strong>Important:</strong> Please read these Terms of Service carefully before using Ch3f's Pr3cision.</p>
+                </div>
+
+                <h2>1. Acceptance of Terms</h2>
+                <p>By creating an account or using Ch3f's Pr3cision, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.</p>
+
+                <h2>2. Description of Service</h2>
+                <p>Ch3f's Pr3cision provides a platform that helps users:</p>
+                <ul>
+                    <li>Track ingredients in their virtual pantry</li>
+                    <li>Discover recipes based on available ingredients</li>
+                    <li>Create personalized meal plans</li>
+                    <li>Track nutrition and health goals</li>
+                </ul>
+
+                <h2>3. User Accounts</h2>
+                <h3>Account Creation</h3>
+                <p>To access certain features, you must create an account. You agree to:</p>
+                <ul>
+                    <li>Provide accurate and complete information</li>
+                    <li>Maintain the security of your password</li>
+                    <li>Accept responsibility for all activities under your account</li>
+                </ul>
+
+                <h2>4. Nutrition and Health Disclaimer</h2>
+                <p><strong>Important:</strong> Ch3f's Pr3cision provides nutritional information for informational purposes only. We are not medical professionals and our services should not be considered medical advice.</p>
+                <ul>
+                    <li>Consult with healthcare professionals before making dietary changes</li>
+                    <li>Nutritional data is estimates and may vary</li>
+                    <li>We are not liable for any health issues resulting from use of our services</li>
+                </ul>
+
+                <h2>5. Privacy</h2>
+                <p>Your privacy is important to us. Please review our <a href="{{ url_for('privacy_policy') }}">Privacy Policy</a> to understand how we collect, use, and protect your personal information.</p>
+
+                <h2>6. Contact Information</h2>
+                <p>If you have any questions about these Terms of Service, please contact us at:</p>
+                <p><strong>Email:</strong> ch3fspr3cision@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Ch3f's Pr3cision</h3>
+                    <p>Computer-Engineered Intelligent Recipe Recommendation and Meal Planning.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Features</h3>
+                    <ul class="footer-links">
+                        <li><a href="{{ url_for('ingredients') }}">Ingredients</a></li>
+                        <li><a href="{{ url_for('recipes') }}">Recipes</a></li>
+                        <li><a href="{{ url_for('meal_planner') }}">Meal Planner</a></li>
+                        <li><a href="{{ url_for('nutrition') }}">Nutrition</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="{{ url_for('about') }}">About us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="{{ url_for('privacy_policy') }}">Privacy</a></li>
+                        <li><a href="{{ url_for('terms') }}">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ch3f's Pr3cision. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
